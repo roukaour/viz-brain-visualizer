@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.vbm]
+@="Brain Visualizer"
+
+[HKEY_CLASSES_ROOT\Brain Visualizer]
+@="Binary Model File"
+
+[HKEY_CLASSES_ROOT\Brain Visualizer\DefaultIcon]
+@="%SystemRoot%\\SysWow64\\imageres.dll,-15"
+
+[HKEY_CLASSES_ROOT\Brain Visualizer\shell]
+
+[HKEY_CLASSES_ROOT\Brain Visualizer\shell\open]
+
+[HKEY_CLASSES_ROOT\Brain Visualizer\shell\open\command]
+@="\"C:\\Dropbox\\INIT\\UtilityScripts\\viz.exe\" \"%1\""

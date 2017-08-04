@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Float coords|Win32">
+      <Configuration>Float coords</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Float coords|x64">
+      <Configuration>Float coords</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Large+float|Win32">
+      <Configuration>Large+float</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Large+float|x64">
+      <Configuration>Large+float</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Large interface|Win32">
+      <Configuration>Large interface</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Large interface|x64">
+      <Configuration>Large interface</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{61A8238F-E97F-4216-9FE4-03BA910BFD8E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Brain_Visualizer</RootNamespace>
+    <ProjectName>Brain Visualizer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Configuration)\</IntDir>
+    <TargetName>vizd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>vizd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\bin\win32\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\tmp\win32\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>viz</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SHORT_COORDS;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fltkimagesd.lib;fltkpngd.lib;fltkzd.lib;fltkd.lib;fltkgld.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32\Debug</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SHORT_COORDS;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PreprocessToFile>false</PreprocessToFile>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fltkimagesd.lib;fltkpngd.lib;fltkzd.lib;fltkd.lib;fltkgld.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32\x64\Debug</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SHORT_COORDS;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LARGE_INTERFACE;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LARGE_INTERFACE;SHORT_COORDS;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SHORT_COORDS;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Large+float|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LARGE_INTERFACE;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Float coords|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Large interface|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LARGE_INTERFACE;SHORT_COORDS;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DisableSpecificWarnings>4068;4351</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>.;..\..\include;..\..\res</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>fltkimages.lib;fltkpng.lib;fltkz.lib;fltk.lib;fltkgl.lib;opengl32.lib;glu32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>..\..\lib\win32\x64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\algebra.cpp" />
+    <ClCompile Include="..\..\src\bounds.cpp" />
+    <ClCompile Include="..\..\src\binary-parser.cpp" />
+    <ClCompile Include="..\..\src\brain-model.cpp" />
+    <ClCompile Include="..\..\src\clip-volume.cpp" />
+    <ClCompile Include="..\..\src\color-maps.cpp" />
+    <ClCompile Include="..\..\src\color.cpp" />
+    <ClCompile Include="..\..\src\draw-options.cpp" />
+    <ClCompile Include="..\..\src\firing-spikes.cpp" />
+    <ClCompile Include="..\..\src\fps.cpp" />
+    <ClCompile Include="..\..\src\from-file.cpp" />
+    <ClCompile Include="..\..\src\gap-junction.cpp" />
+    <ClCompile Include="..\..\src\help-window.cpp" />
+    <ClCompile Include="..\..\src\image.cpp" />
+    <ClCompile Include="..\..\src\input-parser.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\modal-dialog.cpp" />
+    <ClCompile Include="..\..\src\model-area.cpp" />
+    <ClCompile Include="..\..\src\model-state.cpp" />
+    <ClCompile Include="..\..\src\neuritic-field.cpp" />
+    <ClCompile Include="..\..\src\option-dialogs.cpp" />
+    <ClCompile Include="..\..\src\os-themes.cpp" />
+    <ClCompile Include="..\..\src\overview-area.cpp" />
+    <ClCompile Include="..\..\src\progress-dialog.cpp" />
+    <ClCompile Include="..\..\src\sim-data.cpp" />
+    <ClCompile Include="..\..\src\soma.cpp" />
+    <ClCompile Include="..\..\src\soma-type.cpp" />
+    <ClCompile Include="..\..\src\summary-dialog.cpp" />
+    <ClCompile Include="..\..\src\synapse.cpp" />
+    <ClCompile Include="..\..\src\viz-window.cpp" />
+    <ClCompile Include="..\..\src\voltage-graph-window.cpp" />
+    <ClCompile Include="..\..\src\voltage-graph.cpp" />
+    <ClCompile Include="..\..\src\voltages.cpp" />
+    <ClCompile Include="..\..\src\waiting-dialog.cpp" />
+    <ClCompile Include="..\..\src\weights.cpp" />
+    <ClCompile Include="..\..\src\widgets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\algebra.h" />
+    <ClInclude Include="..\..\src\bounds.h" />
+    <ClInclude Include="..\..\src\binary-parser.h" />
+    <ClInclude Include="..\..\src\brain-model.h" />
+    <ClInclude Include="..\..\src\clip-volume.h" />
+    <ClInclude Include="..\..\src\color-maps.h" />
+    <ClInclude Include="..\..\src\color.h" />
+    <ClInclude Include="..\..\src\coords.h" />
+    <ClInclude Include="..\..\src\draw-options.h" />
+    <ClInclude Include="..\..\src\firing-spikes.h" />
+    <ClInclude Include="..\..\src\fps.h" />
+    <ClInclude Include="..\..\src\from-file.h" />
+    <ClInclude Include="..\..\src\gap-junction.h" />
+    <ClInclude Include="..\..\src\help-window.h" />
+    <ClInclude Include="..\..\src\image.h" />
+    <ClInclude Include="..\..\src\input-parser.h" />
+    <ClInclude Include="..\..\src\modal-dialog.h" />
+    <ClInclude Include="..\..\src\model-area.h" />
+    <ClInclude Include="..\..\src\model-state.h" />
+    <ClInclude Include="..\..\src\neuritic-field.h" />
+    <ClInclude Include="..\..\src\option-dialogs.h" />
+    <ClInclude Include="..\..\src\os-themes.h" />
+    <ClInclude Include="..\..\src\overview-area.h" />
+    <ClInclude Include="..\..\src\progress-dialog.h" />
+    <ClInclude Include="..\..\src\sim-data.h" />
+    <ClInclude Include="..\..\src\soma.h" />
+    <ClInclude Include="..\..\src\soma-type.h" />
+    <ClInclude Include="..\..\src\summary-dialog.h" />
+    <ClInclude Include="..\..\src\synapse.h" />
+    <ClInclude Include="..\..\src\utils.h" />
+    <ClInclude Include="..\..\src\version.h" />
+    <ClInclude Include="..\..\src\viz-icons.h" />
+    <ClInclude Include="..\..\src\viz-window.h" />
+    <ClInclude Include="..\..\src\voltage-graph-window.h" />
+    <ClInclude Include="..\..\src\voltage-graph.h" />
+    <ClInclude Include="..\..\src\voltages.h" />
+    <ClInclude Include="..\..\src\waiting-dialog.h" />
+    <ClInclude Include="..\..\src\weights.h" />
+    <ClInclude Include="..\..\src\widgets.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\config\help.html" />
+    <None Include="..\..\config\viz.cfg" />
+    <None Include="..\..\res\allow-letters-16.xpm" />
+    <None Include="..\..\res\allow-letters-24.xpm" />
+    <None Include="..\..\res\axon-conns-16.xpm" />
+    <None Include="..\..\res\axon-conns-24.xpm" />
+    <None Include="..\..\res\clip-16.xpm" />
+    <None Include="..\..\res\clip-24.xpm" />
+    <None Include="..\..\res\conn-fields-16.xpm" />
+    <None Include="..\..\res\conn-fields-24.xpm" />
+    <None Include="..\..\res\conn-selected-16.xpm" />
+    <None Include="..\..\res\conn-selected-24.xpm" />
+    <None Include="..\..\res\copy-16.xpm" />
+    <None Include="..\..\res\copy-24.xpm" />
+    <None Include="..\..\res\copy-disabled-16.xpm" />
+    <None Include="..\..\res\copy-disabled-24.xpm" />
+    <None Include="..\..\res\den-conns-16.xpm" />
+    <None Include="..\..\res\den-conns-24.xpm" />
+    <None Include="..\..\res\deselect.xpm" />
+    <None Include="..\..\res\deselect-disabled.xpm" />
+    <None Include="..\..\res\dropdown-7.xpm" />
+    <None Include="..\..\res\dropdown-11.xpm" />
+    <None Include="..\..\res\error.xpm" />
+    <None Include="..\..\res\export-image-16.xpm" />
+    <None Include="..\..\res\export-image-24.xpm" />
+    <None Include="..\..\res\export-image-disabled-16.xpm" />
+    <None Include="..\..\res\export-image-disabled-24.xpm" />
+    <None Include="..\..\res\gap-junctions-16.xpm" />
+    <None Include="..\..\res\gap-junctions-24.xpm" />
+    <None Include="..\..\res\load-firing-spikes-16.xpm" />
+    <None Include="..\..\res\load-firing-spikes-24.xpm" />
+    <None Include="..\..\res\load-firing-spikes-disabled-16.xpm" />
+    <None Include="..\..\res\load-firing-spikes-disabled-24.xpm" />
+    <None Include="..\..\res\load-prunings-16.xpm" />
+    <None Include="..\..\res\load-prunings-24.xpm" />
+    <None Include="..\..\res\load-prunings-disabled-16.xpm" />
+    <None Include="..\..\res\load-prunings-disabled-24.xpm" />
+    <None Include="..\..\res\load-voltages-16.xpm" />
+    <None Include="..\..\res\load-voltages-24.xpm" />
+    <None Include="..\..\res\load-voltages-disabled-16.xpm" />
+    <None Include="..\..\res\load-voltages-disabled-24.xpm" />
+    <None Include="..\..\res\load-weights-16.xpm" />
+    <None Include="..\..\res\load-weights-24.xpm" />
+    <None Include="..\..\res\load-weights-disabled-16.xpm" />
+    <None Include="..\..\res\load-weights-disabled-24.xpm" />
+    <None Include="..\..\res\mark-16.xpm" />
+    <None Include="..\..\res\mark-24.xpm" />
+    <None Include="..\..\res\neuritic-fields-16.xpm" />
+    <None Include="..\..\res\neuritic-fields-24.xpm" />
+    <None Include="..\..\res\next.xpm" />
+    <None Include="..\..\res\next-change.xpm" />
+    <None Include="..\..\res\next-disabled.xpm" />
+    <None Include="..\..\res\next-selected.xpm" />
+    <None Include="..\..\res\next-selected-disabled.xpm" />
+    <None Include="..\..\res\open-and-load-16.xpm" />
+    <None Include="..\..\res\open-and-load-24.xpm" />
+    <None Include="..\..\res\open-model-16.xpm" />
+    <None Include="..\..\res\open-model-24.xpm" />
+    <None Include="..\..\res\orthographic-16.xpm" />
+    <None Include="..\..\res\orthographic-24.xpm" />
+    <None Include="..\..\res\pan-16.xpm" />
+    <None Include="..\..\res\pan-24.xpm" />
+    <None Include="..\..\res\paste-16.xpm" />
+    <None Include="..\..\res\paste-24.xpm" />
+    <None Include="..\..\res\paste-disabled-16.xpm" />
+    <None Include="..\..\res\paste-disabled-24.xpm" />
+    <None Include="..\..\res\pause.xpm" />
+    <None Include="..\..\res\pivot.xpm" />
+    <None Include="..\..\res\pivot-disabled.xpm" />
+    <None Include="..\..\res\play.xpm" />
+    <None Include="..\..\res\previous.xpm" />
+    <None Include="..\..\res\previous-change.xpm" />
+    <None Include="..\..\res\previous-disabled.xpm" />
+    <None Include="..\..\res\previous-selected.xpm" />
+    <None Include="..\..\res\previous-selected-disabled.xpm" />
+    <None Include="..\..\res\redo-16.xpm" />
+    <None Include="..\..\res\redo-24.xpm" />
+    <None Include="..\..\res\redo-disabled-16.xpm" />
+    <None Include="..\..\res\redo-disabled-24.xpm" />
+    <None Include="..\..\res\repeat-16.xpm" />
+    <None Include="..\..\res\repeat-24.xpm" />
+    <None Include="..\..\res\repeat-disabled-16.xpm" />
+    <None Include="..\..\res\repeat-disabled-24.xpm" />
+    <None Include="..\..\res\report.xpm" />
+    <None Include="..\..\res\report-disabled.xpm" />
+    <None Include="..\..\res\reset-16.xpm" />
+    <None Include="..\..\res\reset-24.xpm" />
+    <None Include="..\..\res\reset-disabled-16.xpm" />
+    <None Include="..\..\res\reset-disabled-24.xpm" />
+    <None Include="..\..\res\reset-settings-16.xpm" />
+    <None Include="..\..\res\reset-settings-24.xpm" />
+    <None Include="..\..\res\rotate-16.xpm" />
+    <None Include="..\..\res\rotate-24.xpm" />
+    <None Include="..\..\res\rotate-2d-16.xpm" />
+    <None Include="..\..\res\rotate-2d-24.xpm" />
+    <None Include="..\..\res\rotate-3d-16.xpm" />
+    <None Include="..\..\res\rotate-3d-24.xpm" />
+    <None Include="..\..\res\rotate-x-16.xpm" />
+    <None Include="..\..\res\rotate-x-24.xpm" />
+    <None Include="..\..\res\rotate-y-16.xpm" />
+    <None Include="..\..\res\rotate-y-24.xpm" />
+    <None Include="..\..\res\rotate-z-16.xpm" />
+    <None Include="..\..\res\rotate-z-24.xpm" />
+    <None Include="..\..\res\select-16.xpm" />
+    <None Include="..\..\res\select-24.xpm" />
+    <None Include="..\..\res\show-clipped-16.xpm" />
+    <None Include="..\..\res\show-clipped-24.xpm" />
+    <None Include="..\..\res\show-marked-16.xpm" />
+    <None Include="..\..\res\show-marked-24.xpm" />
+    <None Include="..\..\res\show-selected-16.xpm" />
+    <None Include="..\..\res\show-selected-24.xpm" />
+    <None Include="..\..\res\snap-16.xpm" />
+    <None Include="..\..\res\snap-24.xpm" />
+    <None Include="..\..\res\snap-disabled-16.xpm" />
+    <None Include="..\..\res\snap-disabled-24.xpm" />
+    <None Include="..\..\res\star.xpm" />
+    <None Include="..\..\res\star-disabled.xpm" />
+    <None Include="..\..\res\step.xpm" />
+    <None Include="..\..\res\success.xpm" />
+    <None Include="..\..\res\summary.xpm" />
+    <None Include="..\..\res\summary-disabled.xpm" />
+    <None Include="..\..\res\syn-dots-16.xpm" />
+    <None Include="..\..\res\syn-dots-24.xpm" />
+    <None Include="..\..\res\to-axon-16.xpm" />
+    <None Include="..\..\res\to-axon-24.xpm" />
+    <None Include="..\..\res\to-den-16.xpm" />
+    <None Include="..\..\res\to-den-24.xpm" />
+    <None Include="..\..\res\to-synapse-16.xpm" />
+    <None Include="..\..\res\to-synapse-24.xpm" />
+    <None Include="..\..\res\to-via-16.xpm" />
+    <None Include="..\..\res\to-via-24.xpm" />
+    <None Include="..\..\res\undo-16.xpm" />
+    <None Include="..\..\res\undo-24.xpm" />
+    <None Include="..\..\res\undo-disabled-16.xpm" />
+    <None Include="..\..\res\undo-disabled-24.xpm" />
+    <None Include="..\..\res\viz.ico" />
+    <None Include="..\..\res\viz-48.xpm" />
+    <None Include="..\..\res\warning.xpm" />
+    <None Include="..\..\res\zoom-16.xpm" />
+    <None Include="..\..\res\zoom-24.xpm" />
+    <None Include="..\..\res\zoom-in.xpm" />
+    <None Include="..\..\res\zoom-out.xpm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Brain Visualizer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

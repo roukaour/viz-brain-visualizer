@@ -1,0 +1,10 @@
+# output directory
+bin/
+
+# working directory
+tmp/
+
+# platform-specific library directories
+lib/win32/
+lib/osx/
+lib/linux/

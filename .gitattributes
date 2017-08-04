@@ -1,0 +1,5 @@
+# No newline conversion
+* -text
+
+# VBM is a binary format
+*.vbm  binary diff=hex

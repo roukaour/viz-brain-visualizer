@@ -1,0 +1,675 @@
+2014-04-15 15:22:08 | INFO | Program launched: BOSS.exe -input InputCat.txt -x 500 -y 500 -c 100 -vn 
+2014-04-15 15:22:08 | INFO | Program version: 8.13.10.27 Non-Production build.
+2014-04-15 15:22:08 | INFO | Running as a 64-bit process.
+2014-04-15 15:22:08 | INFO | Memory allocated counts for Somas: 6000000; Neuritic regions: 12000000; Synapses: 1000000000.
+2014-04-15 15:22:08 | INFO | Open MP max threads: 8.
+2014-04-15 15:22:08 | INFO | Input File = InputCat.txt
+2014-04-15 15:22:08 | INFO | X Simulation Space overridden to: 500
+2014-04-15 15:22:08 | INFO | Y Simulation Space overridden to: 500
+2014-04-15 15:22:08 | INFO | Number of cycles for the simulation: 100
+2014-04-15 15:22:08 | INFO | Visualizer Numbers Enabled
+2014-04-15 15:22:08 | INFO | Dilution Factor set to: 1, therefore no dilution.
+2014-04-15 15:22:08 | INFO | CRC for file 'InputCat.txt' = 3485033771, excludes first line and line endings.
+2014-04-15 15:22:19 | INFO | $PARAMS warnings: parameters set to defaults: MAXSYN=5000000, MAXSOM=1000000, MSIMYMN=0, MSIMXMN=0, MSIMZMN=0, MSIMZMX=2000, TSNMNP=1000, Cycle time is 500 microseconds.
+2014-04-15 15:22:19 | WARNING | 
+2014-04-15 15:22:19 | INFO | 1) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-15 15:22:20 | INFO | 2) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-15 15:22:20 | INFO | 3) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-15 15:22:20 | INFO | 4) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-15 15:22:20 | DEBUG | Total number of valid force fire parameter sets = 4.
+2014-04-15 15:22:20 | INFO | 
+2014-04-15 15:22:20 | DEBUG | Total number of STDP adjustments set = 81, middle value = 0.
+2014-04-15 15:22:20 | INFO | P N G B A S T I C M R D
+2014-04-15 15:22:20 | WARNING | $CELL 0 warnings parameters set to defaults: AN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=99*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, TDD=1000, 
+2014-04-15 15:22:20 | WARNING | $CELL 1 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, MCZLIM=-339*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -20
+2014-04-15 15:22:20 | WARNING | $CELL 2 warnings parameters set to defaults: GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=24*, TISDRF=1000, XTHRES=1, GAPCONDUCTANCE=0, TAD=1000, TAD=1000, TAD=1000, TDD=1000, TDD=1000, TDD=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -75
+2014-04-15 15:22:20 | WARNING | $CELL 3 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=219*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-15 15:22:20 | WARNING | $CELL 4 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=199*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-15 15:22:20 | WARNING | $CELL 5 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=369*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-15 15:22:20 | WARNING | $CELL 6 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=359*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-15 15:22:20 | WARNING | $CELL 7 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=379*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-15 15:22:20 | WARNING | $CELL 8 warnings parameters set to defaults: DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=-1901*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TAD=1000, TDD=1000, MMSDMN=300, MMSDMX=300, MMSDMN=300, MMSDMX=300, TDPFMN=1000, TDPFMX=1000, TDPFMN=1000, TDPFMX=1000, TDLNRX=1000, TDLNRX=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -2000
+2014-04-15 15:22:20 | WARNING | $CELL 9 warnings parameters set to defaults: DN=1, GTHDKM=1000000, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMX=500, MCXO=0, CZLN=1, MCZ=100, MCZLIM=-2401*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TAD=1000, TDD=1000, MMSDMN=300, MMSDMX=300, MMSDMN=300, MMSDMX=300, TDPFMN=1000, TDPFMX=1000, TDPFMN=1000, TDPFMX=1000, TDLNRX=1000, TDLNRX=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -2500
+2014-04-15 15:22:20 | WARNING | $CELL 10 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, MCXO=0, MCZLIM=-339*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, TDPFMN=1000, TDPFMX=1000, TDPFMN=1000, TDPFMX=1000, TDLNRX=1000, TDLNRX=1000, 
+2014-04-15 15:22:20 | WARNING | $CELL 11 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=500, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=500, CZLN=1, MCZ=100, MCZLIM=-901*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-15 15:22:20 | WARNING | * furthest soma Z values are calculated, MCZLIM = MCZLVL + CZLN*MCZ - MCZ/abs(MCZ)
+2014-04-15 15:22:20 | INFO | Random seed1 = 7, seed2 = 11
+2014-04-15 15:22:20 | INFO | SetNodeSpace() Entered.
+2014-04-15 15:22:20 | INFO | Universe dimensions: X = (0, 500); Y = (0, 500); Z = (-2500, 2000)
+2014-04-15 15:22:20 | INFO | (0/1) Node dimensions: X = (0, 500); Y = (0, 500); Z = (-2500, 2000); Node size: (500, 500, 4500)
+2014-04-15 15:22:20 | INFO |         Zone dimensions: X = (0, 500); Y = (0, 500); Z = (-2500, 2000)
+2014-04-15 15:22:20 | INFO |         Nodes in zone (count=1): (0)
+2014-04-15 15:22:20 | INFO |         Nodes within reach (count=1): (0)
+2014-04-15 15:22:20 | INFO | 01. Transition from 'Program Begin' to 'Init::SetNodeSpace' elapsed time = 12.218000 seconds.
+2014-04-15 15:22:20 | INFO | MSIMXMX = 500, MSIMYMX = 500, MSIMZMN = -2500
+2014-04-15 15:22:20 | INFO | Node (Id/Count) = (0/1); iNodeSpaceX = [0, 500); NodeSpaceY = [0, 500).
+2014-04-15 15:22:20 | INFO | 02. Transition from 'Init::SetNodeSpace' to 'Init::SetZoneSpace' elapsed time = 0.011000 seconds.
+2014-04-15 15:22:20 | INFO | Zone (Id/Count) = (0/1); iZoneSpaceX = [0, 500); ZoneSpaceY = [0, 500).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) = [-301, 801); ZoneSpaceY = [-101, 601).
+2014-04-15 15:22:20 | INFO | Node+Reach X (Axonal) = [-1001, 1501); ZoneSpaceY = [-1501, 2001).
+2014-04-15 15:22:20 | DEBUG | Zone Space Padding (+/-X, +/-Y) = (1300, 1600).
+2014-04-15 15:22:20 | INFO | 03. Transition from 'Init::SetZoneSpace' to 'Init::GenerateSomas' elapsed time = 0.019000 seconds.
+2014-04-15 15:22:20 | INFO | GenerateSomas...
+2014-04-15 15:22:20 | INFO | Synapse cache will not write to file; All in memory enabled.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(0) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(0) = [-2, 502); ZoneSpaceY = [-2, 502).
+2014-04-15 15:22:20 | DEBUG | About to generate cell type: 0; current soma count: 0
+2014-04-15 15:22:20 | DEBUG | Neuritic counts of cell type 	0 	Axonal = 68 	Dendritic = 136.
+2014-04-15 15:22:20 | DEBUG | Counts of cell type 	0, 	Node = 68 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(1) = [-301, 801); ZoneSpaceY = [-101, 601).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(1) = [-2, 502); ZoneSpaceY = [-1501, 2001).
+2014-04-15 15:22:20 | DEBUG | About to generate cell type: 1; current soma count: 68
+2014-04-15 15:22:20 | DEBUG | Neuritic counts of cell type 	1 	Axonal = 126860 	Dendritic = 126860.
+2014-04-15 15:22:20 | DEBUG | Counts of cell type 	1, 	Node = 126860 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(2) = [-6, 506); ZoneSpaceY = [-6, 506).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(2) = [-301, 801); ZoneSpaceY = [-101, 601).
+2014-04-15 15:22:20 | DEBUG | About to generate cell type: 2; current soma count: 126928
+2014-04-15 15:22:20 | DEBUG | Neuritic counts of cell type 	2 	Axonal = 24 	Dendritic = 24.
+2014-04-15 15:22:20 | DEBUG | Counts of cell type 	2, 	Node = 8 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(3) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(3) = [-1001, 1501); ZoneSpaceY = [-51, 551).
+2014-04-15 15:22:20 | DEBUG | About to generate cell type: 3; current soma count: 126936
+2014-04-15 15:22:20 | DEBUG | Neuritic counts of cell type 	3 	Axonal = 48 	Dendritic = 48.
+2014-04-15 15:22:20 | DEBUG | Counts of cell type 	3, 	Node = 48 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(4) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(4) = [-1001, 1501); ZoneSpaceY = [-51, 551).
+2014-04-15 15:22:20 | DEBUG | About to generate cell type: 4; current soma count: 126984
+2014-04-15 15:22:20 | DEBUG | Neuritic counts of cell type 	4 	Axonal = 48 	Dendritic = 48.
+2014-04-15 15:22:20 | DEBUG | Counts of cell type 	4, 	Node = 48 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(5) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(5) = [-901, 1401); ZoneSpaceY = [-21, 521).
+2014-04-15 15:22:20 | DEBUG | About to generate cell type: 5; current soma count: 127032
+2014-04-15 15:22:20 | DEBUG | Neuritic counts of cell type 	5 	Axonal = 48 	Dendritic = 48.
+2014-04-15 15:22:20 | DEBUG | Counts of cell type 	5, 	Node = 48 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(6) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(6) = [-901, 1401); ZoneSpaceY = [-21, 521).
+2014-04-15 15:22:20 | DEBUG | About to generate cell type: 6; current soma count: 127080
+2014-04-15 15:22:20 | DEBUG | Neuritic counts of cell type 	6 	Axonal = 48 	Dendritic = 48.
+2014-04-15 15:22:20 | DEBUG | Counts of cell type 	6, 	Node = 48 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Dendritic) for type(7) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:20 | DEBUG | Node+Reach X (Axonal) for type(7) = [-101, 601); ZoneSpaceY = [-17, 517).
+2014-04-15 15:22:21 | DEBUG | About to generate cell type: 7; current soma count: 127128
+2014-04-15 15:22:21 | DEBUG | Neuritic counts of cell type 	7 	Axonal = 48 	Dendritic = 48.
+2014-04-15 15:22:21 | DEBUG | Counts of cell type 	7, 	Node = 48 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Dendritic) for type(8) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Axonal) for type(8) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:21 | DEBUG | About to generate cell type: 8; current soma count: 127176
+2014-04-15 15:22:21 | DEBUG | Neuritic counts of cell type 	8 	Axonal = 136 	Dendritic = 68.
+2014-04-15 15:22:21 | DEBUG | Counts of cell type 	8, 	Node = 68 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Dendritic) for type(9) = [-101, 601); ZoneSpaceY = [-11, 511).
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Axonal) for type(9) = [-201, 701); ZoneSpaceY = [-20, 520).
+2014-04-15 15:22:21 | DEBUG | About to generate cell type: 9; current soma count: 127244
+2014-04-15 15:22:21 | DEBUG | Neuritic counts of cell type 	9 	Axonal = 1250 	Dendritic = 625.
+2014-04-15 15:22:21 | DEBUG | Counts of cell type 	9, 	Node = 625 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Dendritic) for type(10) = [-301, 801); ZoneSpaceY = [-101, 601).
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Axonal) for type(10) = [-6, 506); ZoneSpaceY = [-6, 506).
+2014-04-15 15:22:21 | DEBUG | About to generate cell type: 10; current soma count: 127869
+2014-04-15 15:22:21 | DEBUG | Neuritic counts of cell type 	10 	Axonal = 24832 	Dendritic = 24832.
+2014-04-15 15:22:21 | DEBUG | Counts of cell type 	10, 	Node = 24832 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 24832.
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Dendritic) for type(11) = [-1, 501); ZoneSpaceY = [-1, 501).
+2014-04-15 15:22:21 | DEBUG | Node+Reach X (Axonal) for type(11) = [-1, 501); ZoneSpaceY = [-1, 501).
+2014-04-15 15:22:21 | DEBUG | About to generate cell type: 11; current soma count: 152701
+2014-04-15 15:22:21 | DEBUG | Neuritic counts of cell type 	11 	Axonal = 68 	Dendritic = 68.
+2014-04-15 15:22:21 | DEBUG | Counts of cell type 	11, 	Node = 68 	Zone = 0	Skipped = 0; suppressible cell ids skipped: 0.
+2014-04-15 15:22:21 | INFO | Skipped zoned somas = (0 out of 0)
+2014-04-15 15:22:21 | INFO | 
+2014-04-15 15:22:21 | INFO | Soma counts by cell type (zone; includes node count):
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	0 	P 	= 	68
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	1 	N 	= 	126860
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	2 	G 	= 	8
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	3 	B 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	4 	A 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	5 	S 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	6 	T 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	7 	I 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	8 	C 	= 	68
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	9 	M 	= 	625
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	10 	R 	= 	24832
+2014-04-15 15:22:21 | INFO | Soma count of cell type (zone) 	11 	D 	= 	68
+2014-04-15 15:22:21 | INFO | 
+2014-04-15 15:22:21 | INFO | Soma counts by cell type (node only):
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	0 	P 	= 	68
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	1 	N 	= 	126860
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	2 	G 	= 	8
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	3 	B 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	4 	A 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	5 	S 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	6 	T 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	7 	I 	= 	48
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	8 	C 	= 	68
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	9 	M 	= 	625
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	10 	R 	= 	24832
+2014-04-15 15:22:21 | INFO | Soma count of cell type (node) 	11 	D 	= 	68
+2014-04-15 15:22:21 | INFO | 
+2014-04-15 15:22:21 | INFO | GenerateSomas...Completed.	Total number of cells = 	152769.
+2014-04-15 15:22:21 | INFO | Total cells in Universe: 177601; includes total suppressible cells: 24832; out of a potential locations: 242197.
+2014-04-15 15:22:21 | INFO | 04. Transition from 'Init::GenerateSomas' to 'Init::FindSynapses' elapsed time = 0.354000 seconds.
+2014-04-15 15:22:21 | INFO | FindSynapses...
+2014-04-15 15:22:21 | DEBUG | Random numbers currently used = 191120
+2014-04-15 15:22:21 | INFO | FindSynapses between axonal type 	0 	and dendritic type 	11
+2014-04-15 15:22:21 | DEBUG | Number of comparisions in Z axis = 4624.
+2014-04-15 15:22:21 | DEBUG | Number of comparisions in Y axis = 178.
+2014-04-15 15:22:21 | DEBUG | Number of comparisions in X axis = 2382.
+2014-04-15 15:22:21 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:21 | DEBUG | Checks for overlap by pair = 	178  Overlaps by pair = 	68
+2014-04-15 15:22:21 | DEBUG | Total Overlaps: 	68
+2014-04-15 15:22:21 | DEBUG | Total Reorders by End: 	0
+2014-04-15 15:22:21 | DEBUG | Total Reordered items by End: 	0
+2014-04-15 15:22:21 | INFO | Synapse count for type pair = 	68
+2014-04-15 15:22:21 | DEBUG | Current cumulative synapse count = 	68
+2014-04-15 15:22:21 | DEBUG | Random numbers currently used = 204
+2014-04-15 15:22:21 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	0
+2014-04-15 15:22:21 | DEBUG | Number of comparisions in Z axis = 8.62648e+006.
+2014-04-15 15:22:21 | DEBUG | Number of comparisions in Y axis = 1.7253e+007.
+2014-04-15 15:22:21 | DEBUG | Number of comparisions in X axis = 3.19365e+006.
+2014-04-15 15:22:21 | DEBUG | Differentiation dictates order: X-Z-Y.
+2014-04-15 15:22:22 | DEBUG | Checks for overlap by pair = 	3152646  Overlaps by pair = 	3112141
+2014-04-15 15:22:22 | DEBUG | Total Overlaps: 	3112209
+2014-04-15 15:22:22 | DEBUG | Total Reorders by End: 	68
+2014-04-15 15:22:22 | DEBUG | Total Reordered items by End: 	798
+2014-04-15 15:22:22 | INFO | Synapse count for type pair = 	2052088
+2014-04-15 15:22:22 | DEBUG | Current cumulative synapse count = 	2052156
+2014-04-15 15:22:22 | DEBUG | Random numbers currently used = 9268405
+2014-04-15 15:22:22 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	2
+2014-04-15 15:22:22 | DEBUG | Number of comparisions in Z axis = 3.04464e+006.
+2014-04-15 15:22:22 | DEBUG | Number of comparisions in Y axis = 3.04464e+006.
+2014-04-15 15:22:22 | DEBUG | Number of comparisions in X axis = 796017.
+2014-04-15 15:22:22 | DEBUG | Differentiation dictates order: X-Y-Z.
+2014-04-15 15:22:22 | DEBUG | Checks for overlap by pair = 	796020  Overlaps by pair = 	796017
+2014-04-15 15:22:22 | DEBUG | Total Overlaps: 	3908226
+2014-04-15 15:22:22 | DEBUG | Total Reorders by End: 	68
+2014-04-15 15:22:22 | DEBUG | Total Reordered items by End: 	798
+2014-04-15 15:22:22 | INFO | Synapse count for type pair = 	131122
+2014-04-15 15:22:22 | DEBUG | Current cumulative synapse count = 	2183278
+2014-04-15 15:22:22 | DEBUG | Random numbers currently used = 1189383
+2014-04-15 15:22:22 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	3
+2014-04-15 15:22:22 | DEBUG | Number of comparisions in Z axis = 3.95434e+006.
+2014-04-15 15:22:22 | DEBUG | Number of comparisions in Y axis = 6.08928e+006.
+2014-04-15 15:22:22 | DEBUG | Number of comparisions in X axis = 2.05368e+006.
+2014-04-15 15:22:22 | DEBUG | Differentiation dictates order: X-Z-Y.
+2014-04-15 15:22:23 | DEBUG | Checks for overlap by pair = 	2053680  Overlaps by pair = 	1333616
+2014-04-15 15:22:23 | DEBUG | Total Overlaps: 	5241842
+2014-04-15 15:22:23 | DEBUG | Total Reorders by End: 	68
+2014-04-15 15:22:23 | DEBUG | Total Reordered items by End: 	798
+2014-04-15 15:22:23 | INFO | Synapse count for type pair = 	659345
+2014-04-15 15:22:23 | DEBUG | Current cumulative synapse count = 	2842623
+2014-04-15 15:22:23 | DEBUG | Random numbers currently used = 3311651
+2014-04-15 15:22:23 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	4
+2014-04-15 15:22:23 | DEBUG | Number of comparisions in Z axis = 3.95434e+006.
+2014-04-15 15:22:23 | DEBUG | Number of comparisions in Y axis = 6.08928e+006.
+2014-04-15 15:22:23 | DEBUG | Number of comparisions in X axis = 2.05368e+006.
+2014-04-15 15:22:23 | DEBUG | Differentiation dictates order: X-Z-Y.
+2014-04-15 15:22:23 | DEBUG | Checks for overlap by pair = 	2053680  Overlaps by pair = 	1333616
+2014-04-15 15:22:23 | DEBUG | Total Overlaps: 	6575458
+2014-04-15 15:22:23 | DEBUG | Total Reorders by End: 	68
+2014-04-15 15:22:23 | DEBUG | Total Reordered items by End: 	798
+2014-04-15 15:22:23 | INFO | Synapse count for type pair = 	659345
+2014-04-15 15:22:23 | DEBUG | Current cumulative synapse count = 	3501968
+2014-04-15 15:22:23 | DEBUG | Random numbers currently used = 3311651
+2014-04-15 15:22:23 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	5
+2014-04-15 15:22:23 | DEBUG | Number of comparisions in Z axis = 3.04426e+006.
+2014-04-15 15:22:23 | DEBUG | Number of comparisions in Y axis = 6.08928e+006.
+2014-04-15 15:22:23 | DEBUG | Number of comparisions in X axis = 2.05368e+006.
+2014-04-15 15:22:23 | DEBUG | Differentiation dictates order: X-Z-Y.
+2014-04-15 15:22:24 | DEBUG | Checks for overlap by pair = 	2053680  Overlaps by pair = 	1026624
+2014-04-15 15:22:24 | DEBUG | Total Overlaps: 	7602082
+2014-04-15 15:22:24 | DEBUG | Total Reorders by End: 	68
+2014-04-15 15:22:24 | DEBUG | Total Reordered items by End: 	798
+2014-04-15 15:22:24 | INFO | Synapse count for type pair = 	508165
+2014-04-15 15:22:24 | DEBUG | Current cumulative synapse count = 	4010133
+2014-04-15 15:22:24 | DEBUG | Random numbers currently used = 2551119
+2014-04-15 15:22:24 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	6
+2014-04-15 15:22:24 | DEBUG | Number of comparisions in Z axis = 3.04426e+006.
+2014-04-15 15:22:24 | DEBUG | Number of comparisions in Y axis = 6.08928e+006.
+2014-04-15 15:22:24 | DEBUG | Number of comparisions in X axis = 2.05368e+006.
+2014-04-15 15:22:24 | DEBUG | Differentiation dictates order: X-Z-Y.
+2014-04-15 15:22:24 | DEBUG | Checks for overlap by pair = 	2053680  Overlaps by pair = 	1026624
+2014-04-15 15:22:24 | DEBUG | Total Overlaps: 	8628706
+2014-04-15 15:22:24 | DEBUG | Total Reorders by End: 	68
+2014-04-15 15:22:24 | DEBUG | Total Reordered items by End: 	798
+2014-04-15 15:22:24 | INFO | Synapse count for type pair = 	508165
+2014-04-15 15:22:24 | DEBUG | Current cumulative synapse count = 	4518298
+2014-04-15 15:22:24 | DEBUG | Random numbers currently used = 2551119
+2014-04-15 15:22:24 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	7
+2014-04-15 15:22:24 | DEBUG | Number of comparisions in Z axis = 3.04574e+006.
+2014-04-15 15:22:24 | DEBUG | Number of comparisions in Y axis = 6.08928e+006.
+2014-04-15 15:22:24 | DEBUG | Number of comparisions in X axis = 2.05368e+006.
+2014-04-15 15:22:24 | DEBUG | Differentiation dictates order: X-Z-Y.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	2053680  Overlaps by pair = 	1027216
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9655922
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	68
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	798
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	508413
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5026711
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 2552455
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	2 	and dendritic type 	10
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 595968.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 149987.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 160314.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	149987  Overlaps by pair = 	43325
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9699247
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	84
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	834
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	39056
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5065767
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 125578
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	3 	and dendritic type 	0
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 3264.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 1326.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 3264.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	1317  Overlaps by pair = 	246
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9699493
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	152
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	1024
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	212
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5065979
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 719
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	4 	and dendritic type 	0
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 3264.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 1326.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 2592.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	1317  Overlaps by pair = 	246
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9699739
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	220
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	1214
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	212
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5066191
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 719
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	5 	and dendritic type 	0
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 3264.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 624.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 3264.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	609  Overlaps by pair = 	144
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9699883
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	288
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	1417
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	93
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5066284
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 384
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	6 	and dendritic type 	0
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 3264.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 624.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 2592.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	609  Overlaps by pair = 	144
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9700027
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	356
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	1620
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	94
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5066378
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 387
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	7 	and dendritic type 	0
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 3264.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 537.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 3456.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-Z-X.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	522  Overlaps by pair = 	143
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9700170
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	424
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	1810
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	69
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5066447
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 332
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	8 	and dendritic type 	0
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 9248.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 868.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 8633.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	712  Overlaps by pair = 	68
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9700238
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	560
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	1946
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	680000
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5746447
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 2040000
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	8 	and dendritic type 	11
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 4624.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 512.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 5325.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-Z-X.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	356  Overlaps by pair = 	68
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9700306
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	628
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	2014
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	68
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5746515
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 204
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	9 	and dendritic type 	10
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 1.552e+007.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 2.13568e+006.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 1.10308e+007.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	1837925  Overlaps by pair = 	24832
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9725138
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	1253
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	17639
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	24832
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5771347
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 74496
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	9 	and dendritic type 	11
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 42500.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 7825.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 52225.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-Z-X.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	7625  Overlaps by pair = 	3780
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9728918
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	1878
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	33264
+2014-04-15 15:22:25 | INFO | Synapse count for type pair = 	1938
+2014-04-15 15:22:25 | DEBUG | Current cumulative synapse count = 	5773285
+2014-04-15 15:22:25 | DEBUG | Random numbers currently used = 8984
+2014-04-15 15:22:25 | INFO | FindSynapses between axonal type 	10 	and dendritic type 	2
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Z axis = 296472.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in Y axis = 149987.
+2014-04-15 15:22:25 | DEBUG | Number of comparisions in X axis = 160314.
+2014-04-15 15:22:25 | DEBUG | Differentiation dictates order: Y-X-Z.
+2014-04-15 15:22:25 | DEBUG | Checks for overlap by pair = 	149987  Overlaps by pair = 	21592
+2014-04-15 15:22:25 | DEBUG | Total Overlaps: 	9750510
+2014-04-15 15:22:25 | DEBUG | Total Reorders by End: 	1894
+2014-04-15 15:22:25 | DEBUG | Total Reordered items by End: 	33300
+2014-04-15 15:22:25 | DEBUG | Pair synapse count = 	19493
+2014-04-15 15:22:25 | INFO | Total Checks for overlap: 	16368210
+2014-04-15 15:22:25 | INFO | Total Overlaps: 	9750510
+2014-04-15 15:22:25 | INFO | Interior Synapse Count = 5792778
+2014-04-15 15:22:25 | INFO | Exterior Synapse Count = 0
+2014-04-15 15:22:25 | INFO | Total Synapse Count = 5792778
+2014-04-15 15:22:25 | DEBUG | Total Time: 4.686 seconds.
+2014-04-15 15:22:25 | INFO | FindGapJunctions...
+2014-04-15 15:22:25 | INFO | FindGapJunctions for cell type type 	2
+2014-04-15 15:22:25 | INFO | 126928	126930
+2014-04-15 15:22:25 | INFO | 126930	126928
+2014-04-15 15:22:25 | INFO | 126930	126931
+2014-04-15 15:22:25 | INFO | 126931	126930
+2014-04-15 15:22:25 | INFO | 126931	126933
+2014-04-15 15:22:25 | INFO | 126933	126931
+2014-04-15 15:22:25 | INFO | 126933	126934
+2014-04-15 15:22:25 | INFO | 126934	126933
+2014-04-15 15:22:25 | INFO | 126928	126929
+2014-04-15 15:22:25 | INFO | 126928	126930
+2014-04-15 15:22:25 | INFO | 126929	126928
+2014-04-15 15:22:25 | INFO | 126929	126930
+2014-04-15 15:22:25 | INFO | 126930	126928
+2014-04-15 15:22:25 | INFO | 126930	126929
+2014-04-15 15:22:25 | INFO | 126930	126931
+2014-04-15 15:22:25 | INFO | 126930	126932
+2014-04-15 15:22:25 | INFO | 126931	126930
+2014-04-15 15:22:25 | INFO | 126931	126932
+2014-04-15 15:22:25 | INFO | 126931	126933
+2014-04-15 15:22:25 | INFO | 126932	126930
+2014-04-15 15:22:25 | INFO | 126932	126931
+2014-04-15 15:22:25 | INFO | 126932	126933
+2014-04-15 15:22:25 | INFO | 126933	126931
+2014-04-15 15:22:25 | INFO | 126933	126932
+2014-04-15 15:22:25 | INFO | 126933	126934
+2014-04-15 15:22:25 | INFO | 126933	126935
+2014-04-15 15:22:25 | INFO | 126934	126933
+2014-04-15 15:22:25 | INFO | 126934	126935
+2014-04-15 15:22:25 | INFO | 126935	126933
+2014-04-15 15:22:25 | INFO | 126935	126934
+2014-04-15 15:22:25 | INFO | 126929	126930
+2014-04-15 15:22:25 | INFO | 126930	126929
+2014-04-15 15:22:25 | INFO | 126930	126932
+2014-04-15 15:22:25 | INFO | 126932	126930
+2014-04-15 15:22:25 | INFO | 126932	126933
+2014-04-15 15:22:25 | INFO | 126933	126932
+2014-04-15 15:22:25 | INFO | 126933	126935
+2014-04-15 15:22:25 | INFO | 126935	126933
+2014-04-15 15:22:25 | DEBUG | From Find Gap Junctionsfor celltype 2 Checks for overlap = 	552
+Total number of gap junctions in vector:  38  Overlaps by pair of cells = 	38
+2014-04-15 15:22:25 | DEBUG | Time(sec)  =	0	Total Overlaps: 	9750548
+2014-04-15 15:22:25 | INFO | Number of gap junctions = 38
+05. Transition from 'Init::FindSynapses' to 'Init::PrintAllCoord' elapsed time = 4.750000 seconds.
+2014-04-15 15:22:25 | INFO | 	'Init::1.FindSynapsesByTypePair CalculateDifferentiationByType' elapsed time = 0.904000 seconds, %19.031578.
+2014-04-15 15:22:25 | INFO | 	'Init::2.FindSynapsesByTypePair SkipToFirstOverlap' elapsed time = 0.001000 seconds, %0.021053.
+2014-04-15 15:22:25 | INFO | 	'Init::3.FindSynapsesByTypePair Staggered Walk' elapsed time = 3.404000 seconds, %71.663155.
+2014-04-15 15:22:25 | INFO | 	'Init::FindSynapses other' elapsed time = 0.441000 seconds, %9.284210.
+2014-04-15 15:22:25 | INFO |  Init.Run() Somas stats = (with synapses):(without synapses):(total synapse count in&out) = 152769:0:11585556
+2014-04-15 15:22:25 | INFO | 06. Transition from 'Init::PrintAllCoord' to 'Init::PrintAllCoord Somas' elapsed time = 0.026000 seconds.
+2014-04-15 15:22:27 | INFO | 07. Transition from 'Init::PrintAllCoord Somas' to 'Init::PrintAllCoord Synapses' elapsed time = 1.578000 seconds.
+2014-04-15 15:22:35 | INFO | 08. Transition from 'Init::PrintAllCoord Synapses' to 'Init::PrintAllCoord in memory' elapsed time = 7.591000 seconds.
+2014-04-15 15:22:35 | INFO | 09. Transition from 'Init::PrintAllCoord in memory' to 'Init::PrintAllCoord to file' elapsed time = 0.010000 seconds.
+2014-04-15 15:22:35 | INFO | AType	DType	ASomasN	DSomasN	ASomasZ	DSomasZ	Synapses
+2014-04-15 15:22:35 | INFO | 0 	11	68	68	0	0	68
+2014-04-15 15:22:35 | INFO | 1 	0	126860	68	0	0	2052088
+2014-04-15 15:22:35 | INFO | 1 	2	126860	8	0	0	131122
+2014-04-15 15:22:35 | INFO | 1 	3	126860	48	0	0	659345
+2014-04-15 15:22:35 | INFO | 1 	4	126860	48	0	0	659345
+2014-04-15 15:22:35 | INFO | 1 	5	126860	48	0	0	508165
+2014-04-15 15:22:35 | INFO | 1 	6	126860	48	0	0	508165
+2014-04-15 15:22:35 | INFO | 1 	7	126860	48	0	0	508413
+2014-04-15 15:22:35 | INFO | 2 	10	8	24832	0	0	39056
+2014-04-15 15:22:35 | INFO | 3 	0	48	68	0	0	212
+2014-04-15 15:22:35 | INFO | 4 	0	48	68	0	0	212
+2014-04-15 15:22:35 | INFO | 5 	0	48	68	0	0	93
+2014-04-15 15:22:35 | INFO | 6 	0	48	68	0	0	94
+2014-04-15 15:22:35 | INFO | 7 	0	48	68	0	0	69
+2014-04-15 15:22:35 | INFO | 8 	0	68	68	0	0	680000
+2014-04-15 15:22:35 | INFO | 8 	11	68	68	0	0	68
+2014-04-15 15:22:35 | INFO | 9 	10	625	24832	0	0	24832
+2014-04-15 15:22:35 | INFO | 9 	11	625	68	0	0	1938
+2014-04-15 15:22:35 | INFO | 10 	2	24832	8	0	0	19493
+2014-04-15 15:22:35 | INFO | 
+2014-04-15 15:22:35 | INFO | 10. Transition from 'Init::PrintAllCoord to file' to 'Init::Completed' elapsed time = 0.047000 seconds.
+2014-04-15 15:22:35 | INFO | 0
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 1155948
+2014-04-15 15:22:35 | INFO | 0.5ms = 1299359
+2014-04-15 15:22:35 | INFO | 1ms = 277461
+2014-04-15 15:22:35 | INFO | 1
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 2
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 57858
+2014-04-15 15:22:35 | INFO | 0.5ms = 20891
+2014-04-15 15:22:35 | INFO | 1ms = 32428
+2014-04-15 15:22:35 | INFO | 1.5ms = 31496
+2014-04-15 15:22:35 | INFO | 2ms = 7942
+2014-04-15 15:22:35 | INFO | 3
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 659345
+2014-04-15 15:22:35 | INFO | 4
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 659345
+2014-04-15 15:22:35 | INFO | 5
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 508165
+2014-04-15 15:22:35 | INFO | 6
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 508165
+2014-04-15 15:22:35 | INFO | 7
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 508413
+2014-04-15 15:22:35 | INFO | 8
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 9
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 10
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 63888
+2014-04-15 15:22:35 | INFO | 11
+2014-04-15 15:22:35 | INFO | -Delays-
+2014-04-15 15:22:35 | INFO | 0ms = 2074
+2014-04-15 15:22:35 | INFO | 11. Transition from 'Init::Completed' to 'RunSim::PrepareStructures' elapsed time = 0.052000 seconds.
+2014-04-15 15:22:35 | INFO | Current total number of somas: m_vSomas.size(): 152769; m_ullUniverseSomaCount: 177601
+2014-04-15 15:22:35 | INFO | 1. ActiveZoneSomaToSynapse sizeof: 24; m_uiActiveZoneSomaCount: 152769; m_pInit->m_vSomas.size(): 152769
+2014-04-15 15:22:35 | INFO | 2. InNodeSynapses sizeof: 40; m_ullInNodeSynapseCount: 5792778
+2014-04-15 15:22:35 | INFO | 3. EventQueue sizeof: 56
+2014-04-15 15:22:35 | INFO | 4. RunSimSomasInNode sizeof: 72; m_uiRunSimSomasInNodeCount: 152769
+2014-04-15 15:22:35 | INFO | 5. NetworkSend sizeof: 4
+2014-04-15 15:22:36 | INFO | RunSim::PrepareStructures() number of learning synapses: 5026638.
+2014-04-15 15:22:36 | INFO | Mask Idx: 1, force fire cell type: M 
+2014-04-15 15:22:36 | INFO | Mask Idx: 2, force fire cell type: M 
+2014-04-15 15:22:36 | INFO | Mask Idx: 3, force fire cell type: M 
+2014-04-15 15:22:36 | INFO | Mask Idx: 4, force fire cell type: M 
+2014-04-15 15:22:36 | WARNING | WARNING! Count from viz_selected_cells.txt does not equal number at top of file 11 != 3. Or maximum was exceeded.
+2014-04-15 15:22:36 | INFO | Counts of unique reported cells (selected_in_node,parents,children): 11, 0, 0.
+2014-04-15 15:22:36 | INFO | 12. Transition from 'RunSim::PrepareStructures' to 'RunSim::RunSimulation - Waiting for nodes' elapsed time = 1.410000 seconds.
+2014-04-15 15:22:36 | INFO | Expanding buffer used for MPI from 4 bytes to 8 bytes.
+2014-04-15 15:22:36 | INFO | Expanded buffer used for MPI, now 8 bytes.
+2014-04-15 15:22:36 | INFO | Total synapses in universe = 5792778
+2014-04-15 15:22:36 | INFO | 13. Transition from 'RunSim::RunSimulation - Waiting for nodes' to 'RunSim::RunSimulation - Running cycles' elapsed time = 0.012000 seconds.
+2014-04-15 15:22:36 | INFO | Start of cycle 0.
+2014-04-15 15:22:36 | DEBUG | Start of last fired and last suppressed maintenance for cycle 0.
+2014-04-15 15:22:36 | DEBUG | End of last fired and last suppressed maintenance for cycle 0.
+2014-04-15 15:22:36 | INFO | Statistics for cycle: 0; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:36 | INFO | Start of cycle 1.
+2014-04-15 15:22:36 | INFO | Start of cycle 2.
+2014-04-15 15:22:36 | INFO | Start of cycle 3.
+2014-04-15 15:22:36 | INFO | Start of cycle 4.
+2014-04-15 15:22:36 | INFO | Start of cycle 5.
+2014-04-15 15:22:36 | INFO | Start of cycle 6.
+2014-04-15 15:22:36 | INFO | Start of cycle 7.
+2014-04-15 15:22:36 | INFO | Start of cycle 8.
+2014-04-15 15:22:36 | INFO | Start of cycle 9.
+2014-04-15 15:22:36 | INFO | Start of cycle 10.
+2014-04-15 15:22:36 | INFO | Statistics for cycle: 10; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:36 | INFO | Start of cycle 11.
+2014-04-15 15:22:36 | INFO | Start of cycle 12.
+2014-04-15 15:22:36 | INFO | Start of cycle 13.
+2014-04-15 15:22:36 | INFO | Start of cycle 14.
+2014-04-15 15:22:36 | INFO | Start of cycle 15.
+2014-04-15 15:22:36 | INFO | Start of cycle 16.
+2014-04-15 15:22:36 | INFO | Start of cycle 17.
+2014-04-15 15:22:36 | INFO | Start of cycle 18.
+2014-04-15 15:22:36 | INFO | Start of cycle 19.
+2014-04-15 15:22:36 | INFO | Start of cycle 20.
+2014-04-15 15:22:36 | INFO | Statistics for cycle: 20; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:36 | INFO | Start of cycle 21.
+2014-04-15 15:22:36 | INFO | Start of cycle 22.
+2014-04-15 15:22:36 | INFO | Start of cycle 23.
+2014-04-15 15:22:36 | INFO | Start of cycle 24.
+2014-04-15 15:22:36 | INFO | Start of cycle 25.
+2014-04-15 15:22:36 | INFO | Start of cycle 26.
+2014-04-15 15:22:37 | INFO | Start of cycle 27.
+2014-04-15 15:22:37 | INFO | Start of cycle 28.
+2014-04-15 15:22:37 | INFO | Start of cycle 29.
+2014-04-15 15:22:37 | INFO | Start of cycle 30.
+2014-04-15 15:22:37 | INFO | Statistics for cycle: 30; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:37 | INFO | Start of cycle 31.
+2014-04-15 15:22:37 | INFO | Start of cycle 32.
+2014-04-15 15:22:37 | INFO | Start of cycle 33.
+2014-04-15 15:22:37 | INFO | Start of cycle 34.
+2014-04-15 15:22:37 | INFO | Start of cycle 35.
+2014-04-15 15:22:37 | INFO | Start of cycle 36.
+2014-04-15 15:22:37 | INFO | Start of cycle 37.
+2014-04-15 15:22:37 | INFO | Start of cycle 38.
+2014-04-15 15:22:37 | INFO | Start of cycle 39.
+2014-04-15 15:22:37 | INFO | Start of cycle 40.
+2014-04-15 15:22:37 | INFO | Statistics for cycle: 40; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:37 | INFO | Start of cycle 41.
+2014-04-15 15:22:37 | INFO | Start of cycle 42.
+2014-04-15 15:22:37 | INFO | Start of cycle 43.
+2014-04-15 15:22:37 | INFO | Start of cycle 44.
+2014-04-15 15:22:37 | INFO | Start of cycle 45.
+2014-04-15 15:22:37 | INFO | Start of cycle 46.
+2014-04-15 15:22:37 | INFO | Start of cycle 47.
+2014-04-15 15:22:37 | INFO | Start of cycle 48.
+2014-04-15 15:22:37 | INFO | Start of cycle 49.
+2014-04-15 15:22:37 | INFO | Start of cycle 50.
+2014-04-15 15:22:37 | INFO | Statistics for cycle: 50; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:37 | INFO | Start of cycle 51.
+2014-04-15 15:22:37 | INFO | Start of cycle 52.
+2014-04-15 15:22:37 | INFO | Start of cycle 53.
+2014-04-15 15:22:37 | INFO | Start of cycle 54.
+2014-04-15 15:22:37 | INFO | Start of cycle 55.
+2014-04-15 15:22:37 | INFO | Start of cycle 56.
+2014-04-15 15:22:37 | INFO | Start of cycle 57.
+2014-04-15 15:22:37 | INFO | Start of cycle 58.
+2014-04-15 15:22:37 | INFO | Start of cycle 59.
+2014-04-15 15:22:37 | INFO | Start of cycle 60.
+2014-04-15 15:22:37 | INFO | Statistics for cycle: 60; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:37 | INFO | Start of cycle 61.
+2014-04-15 15:22:37 | INFO | Start of cycle 62.
+2014-04-15 15:22:37 | INFO | Start of cycle 63.
+2014-04-15 15:22:37 | INFO | Start of cycle 64.
+2014-04-15 15:22:37 | INFO | Start of cycle 65.
+2014-04-15 15:22:37 | INFO | Start of cycle 66.
+2014-04-15 15:22:37 | INFO | Start of cycle 67.
+2014-04-15 15:22:37 | INFO | Start of cycle 68.
+2014-04-15 15:22:37 | INFO | Start of cycle 69.
+2014-04-15 15:22:37 | INFO | Start of cycle 70.
+2014-04-15 15:22:37 | INFO | Statistics for cycle: 70; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:37 | INFO | Start of cycle 71.
+2014-04-15 15:22:37 | INFO | Start of cycle 72.
+2014-04-15 15:22:37 | INFO | Start of cycle 73.
+2014-04-15 15:22:37 | INFO | Start of cycle 74.
+2014-04-15 15:22:37 | INFO | Start of cycle 75.
+2014-04-15 15:22:37 | INFO | Start of cycle 76.
+2014-04-15 15:22:37 | INFO | Start of cycle 77.
+2014-04-15 15:22:37 | INFO | Start of cycle 78.
+2014-04-15 15:22:37 | INFO | Start of cycle 79.
+2014-04-15 15:22:37 | INFO | Start of cycle 80.
+2014-04-15 15:22:37 | INFO | Statistics for cycle: 80; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:37 | INFO | Start of cycle 81.
+2014-04-15 15:22:37 | INFO | Start of cycle 82.
+2014-04-15 15:22:37 | INFO | Start of cycle 83.
+2014-04-15 15:22:37 | INFO | Start of cycle 84.
+2014-04-15 15:22:37 | INFO | Start of cycle 85.
+2014-04-15 15:22:37 | INFO | Start of cycle 86.
+2014-04-15 15:22:37 | INFO | Start of cycle 87.
+2014-04-15 15:22:37 | INFO | Start of cycle 88.
+2014-04-15 15:22:37 | INFO | Start of cycle 89.
+2014-04-15 15:22:37 | INFO | Start of cycle 90.
+2014-04-15 15:22:37 | INFO | Statistics for cycle: 90; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-15 15:22:37 | INFO | Start of cycle 91.
+2014-04-15 15:22:37 | INFO | Start of cycle 92.
+2014-04-15 15:22:37 | INFO | Start of cycle 93.
+2014-04-15 15:22:37 | INFO | Start of cycle 94.
+2014-04-15 15:22:37 | INFO | Start of cycle 95.
+2014-04-15 15:22:37 | INFO | Start of cycle 96.
+2014-04-15 15:22:37 | INFO | Start of cycle 97.
+2014-04-15 15:22:37 | INFO | Start of cycle 98.
+2014-04-15 15:22:37 | INFO | Start of cycle 99.
+2014-04-15 15:22:37 | INFO | Total number of adjustments (rebalances) = 0
+2014-04-15 15:22:37 | INFO | 14. Transition from 'RunSim::RunSimulation - Running cycles' to 'RunSim::Completed' elapsed time = 0.811000 seconds.
+2014-04-15 15:22:37 | INFO | 	'RunSim::1.Cleanup and reporting - start of cycle' elapsed time = 0.017000 seconds, %2.096178.
+2014-04-15 15:22:37 | INFO | 	'RunSim::2a.NetworkSendAndReceive Prep' elapsed time = 0.013000 seconds, %1.602959.
+2014-04-15 15:22:37 | INFO | 	'RunSim::2b.NetworkSendAndReceive Wait' elapsed time = 0.002000 seconds, %0.246609.
+2014-04-15 15:22:37 | INFO | 	'RunSim::2c.NetworkSendAndReceive Send' elapsed time = 0.007000 seconds, %0.863132.
+2014-04-15 15:22:37 | INFO | 	'RunSim::3.Process incoming data' elapsed time = 0.000000 seconds, %0.000000.
+2014-04-15 15:22:37 | INFO | 	'RunSim::4.Process events' elapsed time = 0.000000 seconds, %0.000000.
+2014-04-15 15:22:37 | INFO | 	'RunSim::5.Evaluate firing - Izhi' elapsed time = 0.168000 seconds, %20.715166.
+2014-04-15 15:22:37 | INFO | 	'RunSim::6.Evaluate firing - Force fire' elapsed time = 0.110000 seconds, %13.563502.
+2014-04-15 15:22:37 | INFO | 	'RunSim::7.Learning' elapsed time = 0.074000 seconds, %9.124537.
+2014-04-15 15:22:37 | INFO | 	'RunSim::8.Regulation' elapsed time = 0.027000 seconds, %3.329223.
+2014-04-15 15:22:37 | INFO | 	'RunSim::9.Cleanup and reporting - end of cycle' elapsed time = 0.118000 seconds, %14.549938.
+2014-04-15 15:22:37 | INFO | 	'RunSim::RunSimulation - Running cycles other' elapsed time = 0.275000 seconds, %33.908756.
+2014-04-15 15:22:40 | INFO | Total Process Time: 31.839 seconds.
+2014-04-15 15:22:40 | INFO | 15. Transition from 'RunSim::Completed' to 'End' elapsed time = 2.983000 seconds.
+2014-04-15 15:22:40 | INFO | 
+2014-04-15 15:22:40 | INFO | Timing summary
+2014-04-15 15:22:40 | INFO | --------------
+2014-04-15 15:22:40 | INFO | 	01. Transition from 'Program Begin' to 'Init::SetNodeSpace' elapsed time = 12.218000 seconds.
+2014-04-15 15:22:40 | INFO | 	02. Transition from 'Init::SetNodeSpace' to 'Init::SetZoneSpace' elapsed time = 0.011000 seconds.
+2014-04-15 15:22:40 | INFO | 	03. Transition from 'Init::SetZoneSpace' to 'Init::GenerateSomas' elapsed time = 0.019000 seconds.
+2014-04-15 15:22:40 | INFO | 	04. Transition from 'Init::GenerateSomas' to 'Init::FindSynapses' elapsed time = 0.354000 seconds.
+2014-04-15 15:22:40 | INFO | 	05. Transition from 'Init::FindSynapses' to 'Init::PrintAllCoord' elapsed time = 4.750000 seconds.
+2014-04-15 15:22:40 | INFO | 		'Init::2.FindSynapsesByTypePair SkipToFirstOverlap' elapsed time = 0.001000 seconds, %0.021053.
+2014-04-15 15:22:40 | INFO | 		'Init::FindSynapses other' elapsed time = 0.441000 seconds, %9.284210.
+2014-04-15 15:22:40 | INFO | 		'Init::1.FindSynapsesByTypePair CalculateDifferentiationByType' elapsed time = 0.904000 seconds, %19.031578.
+2014-04-15 15:22:40 | INFO | 		'Init::3.FindSynapsesByTypePair Staggered Walk' elapsed time = 3.404000 seconds, %71.663155.
+2014-04-15 15:22:40 | INFO | 	06. Transition from 'Init::PrintAllCoord' to 'Init::PrintAllCoord Somas' elapsed time = 0.026000 seconds.
+2014-04-15 15:22:40 | INFO | 	07. Transition from 'Init::PrintAllCoord Somas' to 'Init::PrintAllCoord Synapses' elapsed time = 1.578000 seconds.
+2014-04-15 15:22:40 | INFO | 	08. Transition from 'Init::PrintAllCoord Synapses' to 'Init::PrintAllCoord in memory' elapsed time = 7.591000 seconds.
+2014-04-15 15:22:40 | INFO | 	09. Transition from 'Init::PrintAllCoord in memory' to 'Init::PrintAllCoord to file' elapsed time = 0.010000 seconds.
+2014-04-15 15:22:40 | INFO | 	10. Transition from 'Init::PrintAllCoord to file' to 'Init::Completed' elapsed time = 0.047000 seconds.
+2014-04-15 15:22:40 | INFO | 	11. Transition from 'Init::Completed' to 'RunSim::PrepareStructures' elapsed time = 0.052000 seconds.
+2014-04-15 15:22:40 | INFO | 	12. Transition from 'RunSim::PrepareStructures' to 'RunSim::RunSimulation - Waiting for nodes' elapsed time = 1.410000 seconds.
+2014-04-15 15:22:40 | INFO | 	13. Transition from 'RunSim::RunSimulation - Waiting for nodes' to 'RunSim::RunSimulation - Running cycles' elapsed time = 0.012000 seconds.
+2014-04-15 15:22:40 | INFO | 	14. Transition from 'RunSim::RunSimulation - Running cycles' to 'RunSim::Completed' elapsed time = 0.811000 seconds.
+2014-04-15 15:22:40 | INFO | 		'RunSim::4.Process events' elapsed time = 0.000000 seconds, %0.000000.
+2014-04-15 15:22:40 | INFO | 		'RunSim::2b.NetworkSendAndReceive Wait' elapsed time = 0.002000 seconds, %0.246609.
+2014-04-15 15:22:40 | INFO | 		'RunSim::2c.NetworkSendAndReceive Send' elapsed time = 0.007000 seconds, %0.863132.
+2014-04-15 15:22:40 | INFO | 		'RunSim::2a.NetworkSendAndReceive Prep' elapsed time = 0.013000 seconds, %1.602959.
+2014-04-15 15:22:40 | INFO | 		'RunSim::1.Cleanup and reporting - start of cycle' elapsed time = 0.017000 seconds, %2.096178.
+2014-04-15 15:22:40 | INFO | 		'RunSim::8.Regulation' elapsed time = 0.027000 seconds, %3.329223.
+2014-04-15 15:22:40 | INFO | 		'RunSim::7.Learning' elapsed time = 0.074000 seconds, %9.124537.
+2014-04-15 15:22:40 | INFO | 		'RunSim::6.Evaluate firing - Force fire' elapsed time = 0.110000 seconds, %13.563502.
+2014-04-15 15:22:40 | INFO | 		'RunSim::9.Cleanup and reporting - end of cycle' elapsed time = 0.118000 seconds, %14.549938.
+2014-04-15 15:22:40 | INFO | 		'RunSim::5.Evaluate firing - Izhi' elapsed time = 0.168000 seconds, %20.715166.
+2014-04-15 15:22:40 | INFO | 		'RunSim::RunSimulation - Running cycles other' elapsed time = 0.275000 seconds, %33.908756.
+2014-04-15 15:22:40 | INFO | 	15. Transition from 'RunSim::Completed' to 'End' elapsed time = 2.983000 seconds.

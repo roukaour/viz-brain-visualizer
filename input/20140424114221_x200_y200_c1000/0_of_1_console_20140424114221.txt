@@ -1,0 +1,1840 @@
+2014-04-24 11:42:21 | INFO | Program launched: BOSS.exe -input InputCat.txt -x 200 -y 200 -c 1000 -vn -l 2 
+2014-04-24 11:42:21 | INFO | Program version: 8.13.10.27 Non-Production build.
+2014-04-24 11:42:21 | INFO | Running as a 64-bit process.
+2014-04-24 11:42:21 | INFO | Memory allocated counts for Somas: 6000000; Neuritic regions: 12000000; Synapses: 1000000000.
+2014-04-24 11:42:21 | INFO | Open MP max threads: 8.
+2014-04-24 11:42:21 | INFO | Input File = InputCat.txt
+2014-04-24 11:42:21 | INFO | X Simulation Space overridden to: 200
+2014-04-24 11:42:21 | INFO | Y Simulation Space overridden to: 200
+2014-04-24 11:42:21 | INFO | Number of cycles for the simulation: 1000
+2014-04-24 11:42:21 | INFO | Visualizer Numbers Enabled
+2014-04-24 11:42:21 | INFO | Log level set to: 2
+2014-04-24 11:42:21 | INFO | Dilution Factor set to: 1, therefore no dilution.
+2014-04-24 11:42:21 | INFO | CRC for file 'InputCat.txt' = 682219879, excludes first line and line endings.
+2014-04-24 11:42:32 | INFO | $PARAMS warnings: parameters set to defaults: CYDBG2=654321, EXCITE=0, MAXERR=20, MAXSYN=5000000, MAXSOM=1000000, MCSPCY=-1, MINFIR=2, MSIMYMN=0, MSIMXMN=0, MSIMZMN=0, MSIMZMX=2000, MXNOFR=10, NLOGXN=1, NREGXN=2, NXCPTN=0, TOFLFP=1000, TSNMNP=1000, TXMDES=1000, TXMDIS=1000, Cycle time is 500 microseconds.
+2014-04-24 11:42:32 | WARNING | 
+2014-04-24 11:42:32 | INFO | 1) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-24 11:42:32 | INFO | 2) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-24 11:42:32 | INFO | 3) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-24 11:42:32 | INFO | 4) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-24 11:42:32 | INFO | 5) FORCE_RECURRENCE -> [FORCE_ON, FORCE_OFF) = [1, 39) cycle pattern.
+2014-04-24 11:42:32 | INFO | 
+2014-04-24 11:42:32 | INFO | P N G B A S T I C M R D
+2014-04-24 11:42:32 | WARNING | $CELL 0 warnings parameters set to defaults: AN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=99*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, TDD=1000, 
+2014-04-24 11:42:32 | WARNING | $CELL 1 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, MCZLIM=-339*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -20
+2014-04-24 11:42:32 | WARNING | $CELL 2 warnings parameters set to defaults: GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=24*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TAD=1000, TAD=1000, TDD=1000, TDD=1000, TDD=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -75
+2014-04-24 11:42:32 | WARNING | $CELL 3 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=219*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-24 11:42:32 | WARNING | $CELL 4 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=199*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-24 11:42:32 | WARNING | $CELL 5 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=369*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-24 11:42:32 | WARNING | $CELL 6 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=359*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-24 11:42:32 | WARNING | $CELL 7 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=379*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-24 11:42:32 | WARNING | $CELL 8 warnings parameters set to defaults: DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=-1901*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TAD=1000, TDD=1000, MMSDMN=300, MMSDMX=300, MMSDMN=300, MMSDMX=300, TDPFMN=1000, TDPFMX=1000, TDPFMN=1000, TDPFMX=1000, TDLNRX=1000, TDLNRX=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -2000
+2014-04-24 11:42:32 | WARNING | $CELL 9 warnings parameters set to defaults: DN=1, GTHDKM=1000000, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMX=200, MCXO=0, CZLN=1, MCZ=100, MCZLIM=-2401*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TAD=1000, TDD=1000, MMSDMN=300, MMSDMX=300, MMSDMN=300, MMSDMX=300, TDPFMN=1000, TDPFMX=1000, TDPFMN=1000, TDPFMX=1000, TDLNRX=1000, TDLNRX=1000, Warning: Simulation boundaries (MSIMZMN) adjusted to accommodate current cell, now = -2500
+2014-04-24 11:42:32 | WARNING | $CELL 10 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, MCXO=0, MCZLIM=-339*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, TDPFMN=1000, TDPFMX=1000, TDPFMN=1000, TDPFMX=1000, TDLNRX=1000, TDLNRX=1000, 
+2014-04-24 11:42:33 | WARNING | $CELL 11 warnings parameters set to defaults: AN=1, DN=1, GTHDKM=1000000, MCYMN=1, MCYMX=200, MCSODR=-1, MCSPFR=10000, MCSPMT=1000, MCXMN=1, MCXMX=200, CZLN=1, MCZ=100, MCZLIM=-901*, TISDRF=1000, XTHRES=1, GAPAA=0, GAPDD=0, GAPSS=0, GAPAD=0, GAPAS=0, GAPDS=0, GAPCONDUCTANCE=0, TAD=1000, TDD=1000, 
+2014-04-24 11:42:33 | WARNING | * furthest soma Z values are calculated, MCZLIM = MCZLVL + CZLN*MCZ - MCZ/abs(MCZ)
+2014-04-24 11:42:33 | INFO | Random seed1 = 7, seed2 = 11
+2014-04-24 11:42:33 | INFO | Universe dimensions: X = (0, 200); Y = (0, 200); Z = (-2500, 2000)
+2014-04-24 11:42:33 | INFO | (0/1) Node dimensions: X = (0, 200); Y = (0, 200); Z = (-2500, 2000); Node size: (200, 200, 4500)
+2014-04-24 11:42:33 | INFO |         Zone dimensions: X = (0, 200); Y = (0, 200); Z = (-2500, 2000)
+2014-04-24 11:42:33 | INFO |         Nodes in zone (count=1): (0)
+2014-04-24 11:42:33 | INFO |         Nodes within reach (count=1): (0)
+2014-04-24 11:42:33 | INFO | 01. Transition from 'Program Begin' to 'Init::SetNodeSpace' elapsed time = 12.139000 seconds.
+2014-04-24 11:42:33 | INFO | MSIMXMX = 200, MSIMYMX = 200, MSIMZMN = -2500
+2014-04-24 11:42:33 | INFO | Node (Id/Count) = (0/1); iNodeSpaceX = [0, 200); NodeSpaceY = [0, 200).
+2014-04-24 11:42:33 | INFO | 02. Transition from 'Init::SetNodeSpace' to 'Init::SetZoneSpace' elapsed time = 0.011000 seconds.
+2014-04-24 11:42:33 | INFO | Zone (Id/Count) = (0/1); iZoneSpaceX = [0, 200); ZoneSpaceY = [0, 200).
+2014-04-24 11:42:33 | INFO | Node+Reach X (Axonal) = [-1001, 1201); ZoneSpaceY = [-1501, 1701).
+2014-04-24 11:42:33 | INFO | 03. Transition from 'Init::SetZoneSpace' to 'Init::GenerateSomas' elapsed time = 0.011000 seconds.
+2014-04-24 11:42:33 | INFO | GenerateSomas...
+2014-04-24 11:42:33 | INFO | Synapse cache will not write to file; All in memory enabled.
+2014-04-24 11:42:33 | INFO | Skipped zoned somas = (0 out of 0)
+2014-04-24 11:42:33 | INFO | 
+2014-04-24 11:42:33 | INFO | Soma counts by cell type (zone; includes node count):
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	0 	P 	= 	11
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	1 	N 	= 	20781
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	2 	G 	= 	1
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	3 	B 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	4 	A 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	5 	S 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	6 	T 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	7 	I 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	8 	C 	= 	11
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	9 	M 	= 	100
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	10 	R 	= 	3926
+2014-04-24 11:42:33 | INFO | Soma count of cell type (zone) 	11 	D 	= 	11
+2014-04-24 11:42:33 | INFO | 
+2014-04-24 11:42:33 | INFO | Soma counts by cell type (node only):
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	0 	P 	= 	11
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	1 	N 	= 	20781
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	2 	G 	= 	1
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	3 	B 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	4 	A 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	5 	S 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	6 	T 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	7 	I 	= 	7
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	8 	C 	= 	11
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	9 	M 	= 	100
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	10 	R 	= 	3926
+2014-04-24 11:42:33 | INFO | Soma count of cell type (node) 	11 	D 	= 	11
+2014-04-24 11:42:33 | INFO | 
+2014-04-24 11:42:33 | INFO | GenerateSomas...Completed.	Total number of cells = 	24876.
+2014-04-24 11:42:33 | INFO | Total cells in Universe: 28802; includes total suppressible cells: 3926; out of a potential locations: 39289.
+2014-04-24 11:42:33 | INFO | 04. Transition from 'Init::GenerateSomas' to 'Init::FindSynapses' elapsed time = 0.089000 seconds.
+2014-04-24 11:42:33 | INFO | FindSynapses...
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	0 	and dendritic type 	11
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	11
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	0
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	109599
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	2
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	3462
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	3
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	23593
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	4
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	23593
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	5
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	18400
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	6
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	18400
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	1 	and dendritic type 	7
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	18380
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	2 	and dendritic type 	10
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	1607
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	3 	and dendritic type 	0
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	9
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	4 	and dendritic type 	0
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	5 	and dendritic type 	0
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	2
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	6 	and dendritic type 	0
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	7 	and dendritic type 	0
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	7
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	8 	and dendritic type 	0
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	110000
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	8 	and dendritic type 	11
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	11
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	9 	and dendritic type 	10
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	3926
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	9 	and dendritic type 	11
+2014-04-24 11:42:33 | INFO | Synapse count for type pair = 	194
+2014-04-24 11:42:33 | INFO | FindSynapses between axonal type 	10 	and dendritic type 	1
+2014-04-24 11:42:34 | INFO | Synapse count for type pair = 	37901
+2014-04-24 11:42:34 | INFO | FindSynapses between axonal type 	10 	and dendritic type 	2
+2014-04-24 11:42:34 | INFO | Total Checks for overlap: 	4767446
+2014-04-24 11:42:34 | INFO | Total Overlaps: 	481500
+2014-04-24 11:42:34 | INFO | Interior Synapse Count = 369913
+2014-04-24 11:42:34 | INFO | Exterior Synapse Count = 0
+2014-04-24 11:42:34 | INFO | Total Synapse Count = 369913
+2014-04-24 11:42:34 | INFO | 05. Transition from 'Init::FindSynapses' to 'Init::PrintAllCoord' elapsed time = 0.457000 seconds.
+2014-04-24 11:42:34 | INFO | 	'Init::1.FindSynapsesByTypePair CalculateDifferentiationByType' elapsed time = 0.089000 seconds, %19.474836.
+2014-04-24 11:42:34 | INFO | 	'Init::2.FindSynapsesByTypePair SkipToFirstOverlap' elapsed time = 0.000000 seconds, %0.000000.
+2014-04-24 11:42:34 | INFO | 	'Init::3.FindSynapsesByTypePair Staggered Walk' elapsed time = 0.226000 seconds, %49.452953.
+2014-04-24 11:42:34 | INFO | 	'Init::FindSynapses other' elapsed time = 0.142000 seconds, %31.072210.
+2014-04-24 11:42:34 | INFO |  Init.Run() Somas stats = (with synapses):(without synapses):(total synapse count in&out) = 24871:5:739826
+2014-04-24 11:42:34 | INFO | 06. Transition from 'Init::PrintAllCoord' to 'Init::PrintAllCoord Somas' elapsed time = 0.034000 seconds.
+2014-04-24 11:42:34 | INFO | 07. Transition from 'Init::PrintAllCoord Somas' to 'Init::PrintAllCoord Synapses' elapsed time = 0.263000 seconds.
+2014-04-24 11:42:34 | INFO | 08. Transition from 'Init::PrintAllCoord Synapses' to 'Init::PrintAllCoord in memory' elapsed time = 0.613000 seconds.
+2014-04-24 11:42:34 | INFO | 09. Transition from 'Init::PrintAllCoord in memory' to 'Init::PrintAllCoord to file' elapsed time = 0.011000 seconds.
+2014-04-24 11:42:34 | INFO | AType	DType	ASomasN	DSomasN	ASomasZ	DSomasZ	Synapses
+2014-04-24 11:42:34 | INFO | 0 	11	11	11	0	0	11
+2014-04-24 11:42:34 | INFO | 1 	0	20781	11	0	0	109599
+2014-04-24 11:42:34 | INFO | 1 	2	20781	1	0	0	3462
+2014-04-24 11:42:34 | INFO | 1 	3	20781	7	0	0	23593
+2014-04-24 11:42:34 | INFO | 1 	4	20781	7	0	0	23593
+2014-04-24 11:42:34 | INFO | 1 	5	20781	7	0	0	18400
+2014-04-24 11:42:34 | INFO | 1 	6	20781	7	0	0	18400
+2014-04-24 11:42:34 | INFO | 1 	7	20781	7	0	0	18380
+2014-04-24 11:42:34 | INFO | 2 	10	1	3926	0	0	1607
+2014-04-24 11:42:34 | INFO | 3 	0	7	11	0	0	9
+2014-04-24 11:42:34 | INFO | 4 	0	7	11	0	0	0
+2014-04-24 11:42:34 | INFO | 5 	0	7	11	0	0	2
+2014-04-24 11:42:34 | INFO | 6 	0	7	11	0	0	0
+2014-04-24 11:42:34 | INFO | 7 	0	7	11	0	0	7
+2014-04-24 11:42:34 | INFO | 8 	0	11	11	0	0	110000
+2014-04-24 11:42:34 | INFO | 8 	11	11	11	0	0	11
+2014-04-24 11:42:34 | INFO | 9 	10	100	3926	0	0	3926
+2014-04-24 11:42:35 | INFO | 9 	11	100	11	0	0	194
+2014-04-24 11:42:35 | INFO | 10 	1	3926	20781	0	0	37901
+2014-04-24 11:42:35 | INFO | 10 	2	3926	1	0	0	818
+2014-04-24 11:42:35 | INFO | 
+2014-04-24 11:42:35 | INFO | 10. Transition from 'Init::PrintAllCoord to file' to 'Init::Completed' elapsed time = 0.056000 seconds.
+2014-04-24 11:42:35 | INFO | 0
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 92742
+2014-04-24 11:42:35 | INFO | 0.5ms = 104514
+2014-04-24 11:42:35 | INFO | 1ms = 22361
+2014-04-24 11:42:35 | INFO | 1
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 37901
+2014-04-24 11:42:35 | INFO | 2
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 2053
+2014-04-24 11:42:35 | INFO | 0.5ms = 757
+2014-04-24 11:42:35 | INFO | 1ms = 828
+2014-04-24 11:42:35 | INFO | 1.5ms = 631
+2014-04-24 11:42:35 | INFO | 2ms = 11
+2014-04-24 11:42:35 | INFO | 3
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 23593
+2014-04-24 11:42:35 | INFO | 4
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 23593
+2014-04-24 11:42:35 | INFO | 5
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 18400
+2014-04-24 11:42:35 | INFO | 6
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 18400
+2014-04-24 11:42:35 | INFO | 7
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 18380
+2014-04-24 11:42:35 | INFO | 8
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 9
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 10
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 5533
+2014-04-24 11:42:35 | INFO | 11
+2014-04-24 11:42:35 | INFO | -Delays-
+2014-04-24 11:42:35 | INFO | 0ms = 216
+2014-04-24 11:42:35 | INFO | 11. Transition from 'Init::Completed' to 'RunSim::PrepareStructures' elapsed time = 0.070000 seconds.
+2014-04-24 11:42:35 | INFO | Current total number of somas: m_vSomas.size(): 24876; m_ullUniverseSomaCount: 28802
+2014-04-24 11:42:35 | INFO | 1. ActiveZoneSomaToSynapse sizeof: 24; m_uiActiveZoneSomaCount: 24871; m_pInit->m_vSomas.size(): 24876
+2014-04-24 11:42:35 | INFO | 2. InNodeSynapses sizeof: 40; m_ullInNodeSynapseCount: 369913
+2014-04-24 11:42:35 | INFO | 3. EventQueue sizeof: 56
+2014-04-24 11:42:35 | INFO | 4. RunSimSomasInNode sizeof: 72; m_uiRunSimSomasInNodeCount: 24871
+2014-04-24 11:42:35 | INFO | 5. NetworkSend sizeof: 4
+2014-04-24 11:42:35 | INFO | RunSim::PrepareStructures() number of learning synapses: 215422.
+2014-04-24 11:42:35 | INFO | Mask Idx: 1, force fire cell type: M 
+2014-04-24 11:42:35 | INFO | Mask Idx: 2, force fire cell type: M 
+2014-04-24 11:42:35 | INFO | Mask Idx: 3, force fire cell type: M 
+2014-04-24 11:42:35 | INFO | Mask Idx: 4, force fire cell type: M 
+2014-04-24 11:42:35 | INFO | Mask Idx: 5, force fire cell type: M 
+2014-04-24 11:42:35 | WARNING | WARNING! Count from viz_selected_cells.txt does not equal number at top of file 11 != 3. Or maximum was exceeded.
+2014-04-24 11:42:35 | INFO | Counts of unique reported cells (selected_in_node,parents,children): 11, 0, 0.
+2014-04-24 11:42:35 | INFO | 12. Transition from 'RunSim::PrepareStructures' to 'RunSim::RunSimulation - Waiting for nodes' elapsed time = 0.315000 seconds.
+2014-04-24 11:42:35 | INFO | Expanding buffer used for MPI from 4 bytes to 8 bytes.
+2014-04-24 11:42:35 | INFO | Expanded buffer used for MPI, now 8 bytes.
+2014-04-24 11:42:35 | INFO | Total synapses in universe = 369913
+2014-04-24 11:42:35 | INFO | 13. Transition from 'RunSim::RunSimulation - Waiting for nodes' to 'RunSim::RunSimulation - Running cycles' elapsed time = 0.014000 seconds.
+2014-04-24 11:42:35 | INFO | Start of cycle 0.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 0; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 0; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 1.
+2014-04-24 11:42:35 | INFO | Expanding buffer used for MPI from 8 bytes to 44 bytes.
+2014-04-24 11:42:35 | INFO | Expanded buffer used for MPI, now 44 bytes.
+2014-04-24 11:42:35 | INFO | Start of cycle 2.
+2014-04-24 11:42:35 | INFO | Start of cycle 3.
+2014-04-24 11:42:35 | INFO | Start of cycle 4.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 4; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 418, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 5.
+2014-04-24 11:42:35 | INFO | Expanding buffer used for MPI from 44 bytes to 1672 bytes.
+2014-04-24 11:42:35 | INFO | Expanded buffer used for MPI, now 1672 bytes.
+2014-04-24 11:42:35 | INFO | Start of cycle 6.
+2014-04-24 11:42:35 | INFO | Start of cycle 7.
+2014-04-24 11:42:35 | INFO | Start of cycle 8.
+2014-04-24 11:42:35 | INFO | Start of cycle 9.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 9; counts per type: 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 10.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 10; counts per type: 0, 156, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 10; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 11.
+2014-04-24 11:42:35 | INFO | Start of cycle 12.
+2014-04-24 11:42:35 | INFO | Start of cycle 13.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 13; counts per type: 0, 663, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 14.
+2014-04-24 11:42:35 | INFO | Expanding buffer used for MPI from 1672 bytes to 2652 bytes.
+2014-04-24 11:42:35 | INFO | Expanded buffer used for MPI, now 2652 bytes.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 14; counts per type: 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 15.
+2014-04-24 11:42:35 | INFO | Start of cycle 16.
+2014-04-24 11:42:35 | INFO | Start of cycle 17.
+2014-04-24 11:42:35 | INFO | Start of cycle 18.
+2014-04-24 11:42:35 | INFO | Start of cycle 19.
+2014-04-24 11:42:35 | INFO | Start of cycle 20.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 20; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 20; (dec,inc,non,adj): 0, 2807, 17, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 21.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 21; counts per type: 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 22.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 22; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 23.
+2014-04-24 11:42:35 | INFO | Start of cycle 24.
+2014-04-24 11:42:35 | INFO | Start of cycle 25.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 25; counts per type: 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 26.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 26; counts per type: 0, 0, 0, 4, 4, 0, 1, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 27.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 27; counts per type: 0, 0, 1, 1, 2, 3, 3, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 28.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 28; counts per type: 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 29.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 29; counts per type: 0, 0, 0, 0, 1, 2, 2, 1, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 30.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 30; counts per type: 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 30; (dec,inc,non,adj): 0, 4625, 32, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 31.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 31; counts per type: 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 32.
+2014-04-24 11:42:35 | INFO | Expanding buffer used for MPI from 2652 bytes to 3752 bytes.
+2014-04-24 11:42:35 | INFO | Expanded buffer used for MPI, now 3752 bytes.
+2014-04-24 11:42:35 | INFO | Start of cycle 33.
+2014-04-24 11:42:35 | INFO | Start of cycle 34.
+2014-04-24 11:42:35 | INFO | Start of cycle 35.
+2014-04-24 11:42:35 | INFO | Start of cycle 36.
+2014-04-24 11:42:35 | INFO | Start of cycle 37.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 37; counts per type: 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 38.
+2014-04-24 11:42:35 | INFO | Start of cycle 39.
+2014-04-24 11:42:35 | INFO | Start of cycle 40.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 40; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 40; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 41.
+2014-04-24 11:42:35 | INFO | Start of cycle 42.
+2014-04-24 11:42:35 | INFO | Start of cycle 43.
+2014-04-24 11:42:35 | INFO | Start of cycle 44.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 44; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 362, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 45.
+2014-04-24 11:42:35 | INFO | Start of cycle 46.
+2014-04-24 11:42:35 | INFO | Start of cycle 47.
+2014-04-24 11:42:35 | INFO | Start of cycle 48.
+2014-04-24 11:42:35 | INFO | Start of cycle 49.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 49; counts per type: 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 50.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 50; counts per type: 0, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 50; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 51.
+2014-04-24 11:42:35 | INFO | Start of cycle 52.
+2014-04-24 11:42:35 | INFO | Start of cycle 53.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 53; counts per type: 0, 362, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 54.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 54; counts per type: 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 55.
+2014-04-24 11:42:35 | INFO | Start of cycle 56.
+2014-04-24 11:42:35 | INFO | Start of cycle 57.
+2014-04-24 11:42:35 | INFO | Start of cycle 58.
+2014-04-24 11:42:35 | INFO | Start of cycle 59.
+2014-04-24 11:42:35 | INFO | Start of cycle 60.
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 60; (dec,inc,non,adj): 2425, 0, 0, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 61.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 61; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 62.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 62; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 63.
+2014-04-24 11:42:35 | INFO | Start of cycle 64.
+2014-04-24 11:42:35 | INFO | Start of cycle 65.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 65; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 66.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 66; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 67.
+2014-04-24 11:42:35 | INFO | Start of cycle 68.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 68; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 69.
+2014-04-24 11:42:35 | INFO | Start of cycle 70.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 70; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 70; (dec,inc,non,adj): 0, 4273, 2809, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 71.
+2014-04-24 11:42:35 | INFO | Start of cycle 72.
+2014-04-24 11:42:35 | INFO | Start of cycle 73.
+2014-04-24 11:42:35 | INFO | Start of cycle 74.
+2014-04-24 11:42:35 | INFO | Start of cycle 75.
+2014-04-24 11:42:35 | INFO | Start of cycle 76.
+2014-04-24 11:42:35 | INFO | Start of cycle 77.
+2014-04-24 11:42:35 | INFO | Start of cycle 78.
+2014-04-24 11:42:35 | INFO | Start of cycle 79.
+2014-04-24 11:42:35 | INFO | Start of cycle 80.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 80; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 80; (dec,inc,non,adj): 0, 197, 237, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 81.
+2014-04-24 11:42:35 | INFO | Start of cycle 82.
+2014-04-24 11:42:35 | INFO | Start of cycle 83.
+2014-04-24 11:42:35 | INFO | Start of cycle 84.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 84; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 417, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 85.
+2014-04-24 11:42:35 | INFO | Start of cycle 86.
+2014-04-24 11:42:35 | INFO | Start of cycle 87.
+2014-04-24 11:42:35 | INFO | Start of cycle 88.
+2014-04-24 11:42:35 | INFO | Start of cycle 89.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 89; counts per type: 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 90.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 90; counts per type: 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Statistics for cycle: 90; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:35 | INFO | Start of cycle 91.
+2014-04-24 11:42:35 | INFO | Cells that fired for cycle: 91; counts per type: 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:35 | INFO | Start of cycle 92.
+2014-04-24 11:42:36 | INFO | Start of cycle 93.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 93; counts per type: 0, 209, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 94.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 94; counts per type: 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 95.
+2014-04-24 11:42:36 | INFO | Start of cycle 96.
+2014-04-24 11:42:36 | INFO | Start of cycle 97.
+2014-04-24 11:42:36 | INFO | Start of cycle 98.
+2014-04-24 11:42:36 | INFO | Start of cycle 99.
+2014-04-24 11:42:36 | INFO | Start of cycle 100.
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 100; (dec,inc,non,adj): 1584, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 101.
+2014-04-24 11:42:36 | INFO | Start of cycle 102.
+2014-04-24 11:42:36 | INFO | Start of cycle 103.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 103; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 104.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 104; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 105.
+2014-04-24 11:42:36 | INFO | Start of cycle 106.
+2014-04-24 11:42:36 | INFO | Start of cycle 107.
+2014-04-24 11:42:36 | INFO | Start of cycle 108.
+2014-04-24 11:42:36 | INFO | Start of cycle 109.
+2014-04-24 11:42:36 | INFO | Start of cycle 110.
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 110; (dec,inc,non,adj): 7, 2589, 2807, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 111.
+2014-04-24 11:42:36 | INFO | Start of cycle 112.
+2014-04-24 11:42:36 | INFO | Start of cycle 113.
+2014-04-24 11:42:36 | INFO | Start of cycle 114.
+2014-04-24 11:42:36 | INFO | Start of cycle 115.
+2014-04-24 11:42:36 | INFO | Start of cycle 116.
+2014-04-24 11:42:36 | INFO | Start of cycle 117.
+2014-04-24 11:42:36 | INFO | Start of cycle 118.
+2014-04-24 11:42:36 | INFO | Start of cycle 119.
+2014-04-24 11:42:36 | INFO | Start of cycle 120.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 120; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 120; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 121.
+2014-04-24 11:42:36 | INFO | Start of cycle 122.
+2014-04-24 11:42:36 | INFO | Start of cycle 123.
+2014-04-24 11:42:36 | INFO | Start of cycle 124.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 124; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 422, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 125.
+2014-04-24 11:42:36 | INFO | Start of cycle 126.
+2014-04-24 11:42:36 | INFO | Start of cycle 127.
+2014-04-24 11:42:36 | INFO | Start of cycle 128.
+2014-04-24 11:42:36 | INFO | Start of cycle 129.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 129; counts per type: 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 130.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 130; counts per type: 0, 111, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 130; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 131.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 131; counts per type: 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 132.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 132; counts per type: 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 133.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 133; counts per type: 0, 339, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 134.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 134; counts per type: 0, 154, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 135.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 135; counts per type: 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 136.
+2014-04-24 11:42:36 | INFO | Start of cycle 137.
+2014-04-24 11:42:36 | INFO | Start of cycle 138.
+2014-04-24 11:42:36 | INFO | Start of cycle 139.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 139; counts per type: 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 140.
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 140; (dec,inc,non,adj): 0, 5050, 6777, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 141.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 141; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 142.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 142; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 143.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 143; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 144.
+2014-04-24 11:42:36 | INFO | Start of cycle 145.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 145; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 146.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 146; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 147.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 147; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 148.
+2014-04-24 11:42:36 | INFO | Start of cycle 149.
+2014-04-24 11:42:36 | INFO | Start of cycle 150.
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 150; (dec,inc,non,adj): 0, 6310, 1115, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 151.
+2014-04-24 11:42:36 | INFO | Start of cycle 152.
+2014-04-24 11:42:36 | INFO | Start of cycle 153.
+2014-04-24 11:42:36 | INFO | Start of cycle 154.
+2014-04-24 11:42:36 | INFO | Start of cycle 155.
+2014-04-24 11:42:36 | INFO | Start of cycle 156.
+2014-04-24 11:42:36 | INFO | Start of cycle 157.
+2014-04-24 11:42:36 | INFO | Start of cycle 158.
+2014-04-24 11:42:36 | INFO | Start of cycle 159.
+2014-04-24 11:42:36 | INFO | Start of cycle 160.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 160; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 160; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 161.
+2014-04-24 11:42:36 | INFO | Start of cycle 162.
+2014-04-24 11:42:36 | INFO | Start of cycle 163.
+2014-04-24 11:42:36 | INFO | Start of cycle 164.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 164; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 397, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 165.
+2014-04-24 11:42:36 | INFO | Start of cycle 166.
+2014-04-24 11:42:36 | INFO | Start of cycle 167.
+2014-04-24 11:42:36 | INFO | Start of cycle 168.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 168; counts per type: 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 169.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 169; counts per type: 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 170.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 170; counts per type: 0, 154, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 170; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 171.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 171; counts per type: 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 172.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 172; counts per type: 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 173.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 173; counts per type: 0, 353, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 174.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 174; counts per type: 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 175.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 175; counts per type: 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 176.
+2014-04-24 11:42:36 | INFO | Start of cycle 177.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 177; counts per type: 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 178.
+2014-04-24 11:42:36 | INFO | Start of cycle 179.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 179; counts per type: 6, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 180.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 180; counts per type: 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 180; (dec,inc,non,adj): 0, 5864, 5717, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 181.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 181; counts per type: 6, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 182.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 182; counts per type: 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 183.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 183; counts per type: 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 184.
+2014-04-24 11:42:36 | INFO | Start of cycle 185.
+2014-04-24 11:42:36 | INFO | Start of cycle 186.
+2014-04-24 11:42:36 | INFO | Start of cycle 187.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 187; counts per type: 7, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 188.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 188; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 189.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 189; counts per type: 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 190.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 190; counts per type: 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 190; (dec,inc,non,adj): 0, 5012, 4690, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 191.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 191; counts per type: 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 192.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 192; counts per type: 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 193.
+2014-04-24 11:42:36 | INFO | Start of cycle 194.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 194; counts per type: 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 195.
+2014-04-24 11:42:36 | INFO | Start of cycle 196.
+2014-04-24 11:42:36 | INFO | Start of cycle 197.
+2014-04-24 11:42:36 | INFO | Start of cycle 198.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 198; counts per type: 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 199.
+2014-04-24 11:42:36 | INFO | Start of cycle 200.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 200; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 200; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 201.
+2014-04-24 11:42:36 | INFO | Start of cycle 202.
+2014-04-24 11:42:36 | INFO | Start of cycle 203.
+2014-04-24 11:42:36 | INFO | Start of cycle 204.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 204; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 196, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 205.
+2014-04-24 11:42:36 | INFO | Start of cycle 206.
+2014-04-24 11:42:36 | INFO | Start of cycle 207.
+2014-04-24 11:42:36 | INFO | Start of cycle 208.
+2014-04-24 11:42:36 | INFO | Start of cycle 209.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 209; counts per type: 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 210.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 210; counts per type: 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 210; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 211.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 211; counts per type: 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 212.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 212; counts per type: 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 213.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 213; counts per type: 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 214.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 214; counts per type: 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 215.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 215; counts per type: 0, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 216.
+2014-04-24 11:42:36 | INFO | Start of cycle 217.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 217; counts per type: 0, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 218.
+2014-04-24 11:42:36 | INFO | Start of cycle 219.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 219; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 220.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 220; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 220; (dec,inc,non,adj): 129, 1861, 6565, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 221.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 221; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 222.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 222; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 223.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 223; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 224.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 224; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 225.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 225; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 226.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 226; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:36 | INFO | Start of cycle 227.
+2014-04-24 11:42:36 | INFO | Start of cycle 228.
+2014-04-24 11:42:36 | INFO | Start of cycle 229.
+2014-04-24 11:42:36 | INFO | Start of cycle 230.
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 230; (dec,inc,non,adj): 0, 907, 8460, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 231.
+2014-04-24 11:42:36 | INFO | Start of cycle 232.
+2014-04-24 11:42:36 | INFO | Start of cycle 233.
+2014-04-24 11:42:36 | INFO | Start of cycle 234.
+2014-04-24 11:42:36 | INFO | Start of cycle 235.
+2014-04-24 11:42:36 | INFO | Start of cycle 236.
+2014-04-24 11:42:36 | INFO | Start of cycle 237.
+2014-04-24 11:42:36 | INFO | Start of cycle 238.
+2014-04-24 11:42:36 | INFO | Start of cycle 239.
+2014-04-24 11:42:36 | INFO | Start of cycle 240.
+2014-04-24 11:42:36 | INFO | Cells that fired for cycle: 240; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0
+2014-04-24 11:42:36 | INFO | Statistics for cycle: 240; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:36 | INFO | Start of cycle 241.
+2014-04-24 11:42:36 | INFO | Start of cycle 242.
+2014-04-24 11:42:36 | INFO | Start of cycle 243.
+2014-04-24 11:42:37 | INFO | Start of cycle 244.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 244; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 431, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 245.
+2014-04-24 11:42:37 | INFO | Start of cycle 246.
+2014-04-24 11:42:37 | INFO | Start of cycle 247.
+2014-04-24 11:42:37 | INFO | Start of cycle 248.
+2014-04-24 11:42:37 | INFO | Start of cycle 249.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 249; counts per type: 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 250.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 250; counts per type: 0, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 250; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 251.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 251; counts per type: 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 252.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 252; counts per type: 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 253.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 253; counts per type: 0, 282, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 254.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 254; counts per type: 0, 93, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 255.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 255; counts per type: 0, 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 256.
+2014-04-24 11:42:37 | INFO | Start of cycle 257.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 257; counts per type: 0, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 258.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 258; counts per type: 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 259.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 259; counts per type: 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 260.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 260; counts per type: 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 260; (dec,inc,non,adj): 287, 842, 7126, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 261.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 261; counts per type: 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 262.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 262; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 263.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 263; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 264.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 264; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 265.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 265; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 266.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 266; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 267.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 267; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 268.
+2014-04-24 11:42:37 | INFO | Start of cycle 269.
+2014-04-24 11:42:37 | INFO | Start of cycle 270.
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 270; (dec,inc,non,adj): 0, 2263, 6310, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 271.
+2014-04-24 11:42:37 | INFO | Start of cycle 272.
+2014-04-24 11:42:37 | INFO | Start of cycle 273.
+2014-04-24 11:42:37 | INFO | Start of cycle 274.
+2014-04-24 11:42:37 | INFO | Start of cycle 275.
+2014-04-24 11:42:37 | INFO | Start of cycle 276.
+2014-04-24 11:42:37 | INFO | Start of cycle 277.
+2014-04-24 11:42:37 | INFO | Start of cycle 278.
+2014-04-24 11:42:37 | INFO | Start of cycle 279.
+2014-04-24 11:42:37 | INFO | Start of cycle 280.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 280; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 280; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 281.
+2014-04-24 11:42:37 | INFO | Start of cycle 282.
+2014-04-24 11:42:37 | INFO | Start of cycle 283.
+2014-04-24 11:42:37 | INFO | Start of cycle 284.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 284; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 273, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 285.
+2014-04-24 11:42:37 | INFO | Start of cycle 286.
+2014-04-24 11:42:37 | INFO | Start of cycle 287.
+2014-04-24 11:42:37 | INFO | Start of cycle 288.
+2014-04-24 11:42:37 | INFO | Start of cycle 289.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 289; counts per type: 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 290.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 290; counts per type: 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 290; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 291.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 291; counts per type: 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 292.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 292; counts per type: 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 293.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 293; counts per type: 0, 157, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 294.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 294; counts per type: 0, 124, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 295.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 295; counts per type: 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 296.
+2014-04-24 11:42:37 | INFO | Start of cycle 297.
+2014-04-24 11:42:37 | INFO | Start of cycle 298.
+2014-04-24 11:42:37 | INFO | Start of cycle 299.
+2014-04-24 11:42:37 | INFO | Start of cycle 300.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 300; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 300; (dec,inc,non,adj): 559, 1819, 4874, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 301.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 301; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 302.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 302; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 303.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 303; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 304.
+2014-04-24 11:42:37 | INFO | Start of cycle 305.
+2014-04-24 11:42:37 | INFO | Start of cycle 306.
+2014-04-24 11:42:37 | INFO | Start of cycle 307.
+2014-04-24 11:42:37 | INFO | Start of cycle 308.
+2014-04-24 11:42:37 | INFO | Start of cycle 309.
+2014-04-24 11:42:37 | INFO | Start of cycle 310.
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 310; (dec,inc,non,adj): 0, 1911, 4264, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 311.
+2014-04-24 11:42:37 | INFO | Start of cycle 312.
+2014-04-24 11:42:37 | INFO | Start of cycle 313.
+2014-04-24 11:42:37 | INFO | Start of cycle 314.
+2014-04-24 11:42:37 | INFO | Start of cycle 315.
+2014-04-24 11:42:37 | INFO | Start of cycle 316.
+2014-04-24 11:42:37 | INFO | Start of cycle 317.
+2014-04-24 11:42:37 | INFO | Start of cycle 318.
+2014-04-24 11:42:37 | INFO | Start of cycle 319.
+2014-04-24 11:42:37 | INFO | Start of cycle 320.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 320; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 320; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 321.
+2014-04-24 11:42:37 | INFO | Start of cycle 322.
+2014-04-24 11:42:37 | INFO | Start of cycle 323.
+2014-04-24 11:42:37 | INFO | Start of cycle 324.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 324; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 403, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 325.
+2014-04-24 11:42:37 | INFO | Start of cycle 326.
+2014-04-24 11:42:37 | INFO | Start of cycle 327.
+2014-04-24 11:42:37 | INFO | Start of cycle 328.
+2014-04-24 11:42:37 | INFO | Start of cycle 329.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 329; counts per type: 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 330.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 330; counts per type: 0, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 330; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 331.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 331; counts per type: 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 332.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 332; counts per type: 0, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 333.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 333; counts per type: 0, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 334.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 334; counts per type: 0, 162, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 335.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 335; counts per type: 0, 83, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 336.
+2014-04-24 11:42:37 | INFO | Start of cycle 337.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 337; counts per type: 0, 73, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 338.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 338; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 339.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 339; counts per type: 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 340.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 340; counts per type: 6, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 340; (dec,inc,non,adj): 22, 2334, 6615, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 341.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 341; counts per type: 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 342.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 342; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 343.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 343; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 344.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 344; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 345.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 345; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 346.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 346; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 347.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 347; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 348.
+2014-04-24 11:42:37 | INFO | Start of cycle 349.
+2014-04-24 11:42:37 | INFO | Start of cycle 350.
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 350; (dec,inc,non,adj): 0, 3006, 5326, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 351.
+2014-04-24 11:42:37 | INFO | Start of cycle 352.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 352; counts per type: 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 353.
+2014-04-24 11:42:37 | INFO | Start of cycle 354.
+2014-04-24 11:42:37 | INFO | Start of cycle 355.
+2014-04-24 11:42:37 | INFO | Start of cycle 356.
+2014-04-24 11:42:37 | INFO | Start of cycle 357.
+2014-04-24 11:42:37 | INFO | Start of cycle 358.
+2014-04-24 11:42:37 | INFO | Start of cycle 359.
+2014-04-24 11:42:37 | INFO | Start of cycle 360.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 360; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 360; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 361.
+2014-04-24 11:42:37 | INFO | Start of cycle 362.
+2014-04-24 11:42:37 | INFO | Start of cycle 363.
+2014-04-24 11:42:37 | INFO | Start of cycle 364.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 364; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 275, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 365.
+2014-04-24 11:42:37 | INFO | Start of cycle 366.
+2014-04-24 11:42:37 | INFO | Start of cycle 367.
+2014-04-24 11:42:37 | INFO | Start of cycle 368.
+2014-04-24 11:42:37 | INFO | Start of cycle 369.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 369; counts per type: 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 370.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 370; counts per type: 0, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 370; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 371.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 371; counts per type: 0, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 372.
+2014-04-24 11:42:37 | INFO | Start of cycle 373.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 373; counts per type: 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 374.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 374; counts per type: 0, 192, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 375.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 375; counts per type: 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 376.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 376; counts per type: 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 377.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 377; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 378.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 378; counts per type: 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 379.
+2014-04-24 11:42:37 | INFO | Start of cycle 380.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 380; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 380; (dec,inc,non,adj): 233, 2055, 9535, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 381.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 381; counts per type: 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 382.
+2014-04-24 11:42:37 | INFO | Start of cycle 383.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 383; counts per type: 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 384.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 384; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 385.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 385; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 386.
+2014-04-24 11:42:37 | INFO | Start of cycle 387.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 387; counts per type: 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 388.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 388; counts per type: 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 389.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 389; counts per type: 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 390.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 390; counts per type: 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 390; (dec,inc,non,adj): 0, 2691, 6585, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 391.
+2014-04-24 11:42:37 | INFO | Start of cycle 392.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 392; counts per type: 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 393.
+2014-04-24 11:42:37 | INFO | Start of cycle 394.
+2014-04-24 11:42:37 | INFO | Start of cycle 395.
+2014-04-24 11:42:37 | INFO | Start of cycle 396.
+2014-04-24 11:42:37 | INFO | Start of cycle 397.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 397; counts per type: 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:37 | INFO | Start of cycle 398.
+2014-04-24 11:42:37 | INFO | Start of cycle 399.
+2014-04-24 11:42:37 | INFO | Start of cycle 400.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 400; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0
+2014-04-24 11:42:37 | INFO | Statistics for cycle: 400; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:37 | INFO | Start of cycle 401.
+2014-04-24 11:42:37 | INFO | Start of cycle 402.
+2014-04-24 11:42:37 | INFO | Start of cycle 403.
+2014-04-24 11:42:37 | INFO | Start of cycle 404.
+2014-04-24 11:42:37 | INFO | Cells that fired for cycle: 404; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 419, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 405.
+2014-04-24 11:42:38 | INFO | Start of cycle 406.
+2014-04-24 11:42:38 | INFO | Start of cycle 407.
+2014-04-24 11:42:38 | INFO | Start of cycle 408.
+2014-04-24 11:42:38 | INFO | Start of cycle 409.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 409; counts per type: 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 410.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 410; counts per type: 0, 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 410; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 411.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 411; counts per type: 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 412.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 412; counts per type: 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 413.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 413; counts per type: 0, 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 414.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 414; counts per type: 0, 307, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 415.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 415; counts per type: 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 416.
+2014-04-24 11:42:38 | INFO | Start of cycle 417.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 417; counts per type: 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 418.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 418; counts per type: 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 419.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 419; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 420.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 420; counts per type: 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 420; (dec,inc,non,adj): 0, 3048, 8915, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 421.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 421; counts per type: 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 422.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 422; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 423.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 423; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 424.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 424; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 425.
+2014-04-24 11:42:38 | INFO | Start of cycle 426.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 426; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 427.
+2014-04-24 11:42:38 | INFO | Start of cycle 428.
+2014-04-24 11:42:38 | INFO | Start of cycle 429.
+2014-04-24 11:42:38 | INFO | Start of cycle 430.
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 430; (dec,inc,non,adj): 0, 2033, 7984, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 431.
+2014-04-24 11:42:38 | INFO | Start of cycle 432.
+2014-04-24 11:42:38 | INFO | Start of cycle 433.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 433; counts per type: 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 434.
+2014-04-24 11:42:38 | INFO | Start of cycle 435.
+2014-04-24 11:42:38 | INFO | Start of cycle 436.
+2014-04-24 11:42:38 | INFO | Start of cycle 437.
+2014-04-24 11:42:38 | INFO | Start of cycle 438.
+2014-04-24 11:42:38 | INFO | Start of cycle 439.
+2014-04-24 11:42:38 | INFO | Start of cycle 440.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 440; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 440; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 441.
+2014-04-24 11:42:38 | INFO | Start of cycle 442.
+2014-04-24 11:42:38 | INFO | Start of cycle 443.
+2014-04-24 11:42:38 | INFO | Start of cycle 444.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 444; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 377, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 445.
+2014-04-24 11:42:38 | INFO | Start of cycle 446.
+2014-04-24 11:42:38 | INFO | Start of cycle 447.
+2014-04-24 11:42:38 | INFO | Start of cycle 448.
+2014-04-24 11:42:38 | INFO | Start of cycle 449.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 449; counts per type: 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 450.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 450; counts per type: 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 450; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 451.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 451; counts per type: 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 452.
+2014-04-24 11:42:38 | INFO | Start of cycle 453.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 453; counts per type: 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 454.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 454; counts per type: 0, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 455.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 455; counts per type: 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 456.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 456; counts per type: 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 457.
+2014-04-24 11:42:38 | INFO | Start of cycle 458.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 458; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 459.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 459; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 460.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 460; counts per type: 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 460; (dec,inc,non,adj): 152, 640, 6414, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 461.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 461; counts per type: 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 462.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 462; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 463.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 463; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 464.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 464; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 465.
+2014-04-24 11:42:38 | INFO | Start of cycle 466.
+2014-04-24 11:42:38 | INFO | Start of cycle 467.
+2014-04-24 11:42:38 | INFO | Start of cycle 468.
+2014-04-24 11:42:38 | INFO | Start of cycle 469.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 469; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 470.
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 470; (dec,inc,non,adj): 0, 922, 7332, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 471.
+2014-04-24 11:42:38 | INFO | Start of cycle 472.
+2014-04-24 11:42:38 | INFO | Start of cycle 473.
+2014-04-24 11:42:38 | INFO | Start of cycle 474.
+2014-04-24 11:42:38 | INFO | Start of cycle 475.
+2014-04-24 11:42:38 | INFO | Start of cycle 476.
+2014-04-24 11:42:38 | INFO | Start of cycle 477.
+2014-04-24 11:42:38 | INFO | Start of cycle 478.
+2014-04-24 11:42:38 | INFO | Start of cycle 479.
+2014-04-24 11:42:38 | INFO | Start of cycle 480.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 480; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 480; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 481.
+2014-04-24 11:42:38 | INFO | Start of cycle 482.
+2014-04-24 11:42:38 | INFO | Start of cycle 483.
+2014-04-24 11:42:38 | INFO | Start of cycle 484.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 484; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 356, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 485.
+2014-04-24 11:42:38 | INFO | Start of cycle 486.
+2014-04-24 11:42:38 | INFO | Start of cycle 487.
+2014-04-24 11:42:38 | INFO | Start of cycle 488.
+2014-04-24 11:42:38 | INFO | Start of cycle 489.
+2014-04-24 11:42:38 | INFO | Start of cycle 490.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 490; counts per type: 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 490; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 491.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 491; counts per type: 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 492.
+2014-04-24 11:42:38 | INFO | Start of cycle 493.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 493; counts per type: 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 494.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 494; counts per type: 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 495.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 495; counts per type: 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 496.
+2014-04-24 11:42:38 | INFO | Start of cycle 497.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 497; counts per type: 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 498.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 498; counts per type: 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 499.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 499; counts per type: 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 500.
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 500; (dec,inc,non,adj): 251, 0, 187, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 501.
+2014-04-24 11:42:38 | INFO | Start of cycle 502.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 502; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 503.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 503; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 504.
+2014-04-24 11:42:38 | INFO | Start of cycle 505.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 505; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 506.
+2014-04-24 11:42:38 | INFO | Start of cycle 507.
+2014-04-24 11:42:38 | INFO | Start of cycle 508.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 508; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 509.
+2014-04-24 11:42:38 | INFO | Start of cycle 510.
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 510; (dec,inc,non,adj): 0, 447, 4111, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 511.
+2014-04-24 11:42:38 | INFO | Start of cycle 512.
+2014-04-24 11:42:38 | INFO | Start of cycle 513.
+2014-04-24 11:42:38 | INFO | Start of cycle 514.
+2014-04-24 11:42:38 | INFO | Start of cycle 515.
+2014-04-24 11:42:38 | INFO | Start of cycle 516.
+2014-04-24 11:42:38 | INFO | Start of cycle 517.
+2014-04-24 11:42:38 | INFO | Start of cycle 518.
+2014-04-24 11:42:38 | INFO | Start of cycle 519.
+2014-04-24 11:42:38 | INFO | Start of cycle 520.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 520; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 520; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 521.
+2014-04-24 11:42:38 | INFO | Start of cycle 522.
+2014-04-24 11:42:38 | INFO | Start of cycle 523.
+2014-04-24 11:42:38 | INFO | Start of cycle 524.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 524; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 471, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 525.
+2014-04-24 11:42:38 | INFO | Start of cycle 526.
+2014-04-24 11:42:38 | INFO | Start of cycle 527.
+2014-04-24 11:42:38 | INFO | Start of cycle 528.
+2014-04-24 11:42:38 | INFO | Start of cycle 529.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 529; counts per type: 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 530.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 530; counts per type: 0, 122, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 530; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 531.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 531; counts per type: 0, 78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 532.
+2014-04-24 11:42:38 | INFO | Start of cycle 533.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 533; counts per type: 0, 385, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 534.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 534; counts per type: 0, 427, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 535.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 535; counts per type: 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 536.
+2014-04-24 11:42:38 | INFO | Start of cycle 537.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 537; counts per type: 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 538.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 538; counts per type: 4, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 539.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 539; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 540.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 540; counts per type: 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 540; (dec,inc,non,adj): 0, 3800, 6388, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 541.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 541; counts per type: 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 542.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 542; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 543.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 543; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 544.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 544; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 545.
+2014-04-24 11:42:38 | INFO | Start of cycle 546.
+2014-04-24 11:42:38 | INFO | Start of cycle 547.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 547; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 548.
+2014-04-24 11:42:38 | INFO | Start of cycle 549.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 549; counts per type: 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 550.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 550; counts per type: 0, 0, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 550; (dec,inc,non,adj): 0, 4042, 3146, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 551.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 551; counts per type: 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 552.
+2014-04-24 11:42:38 | INFO | Start of cycle 553.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 553; counts per type: 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 554.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 554; counts per type: 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 555.
+2014-04-24 11:42:38 | INFO | Start of cycle 556.
+2014-04-24 11:42:38 | INFO | Start of cycle 557.
+2014-04-24 11:42:38 | INFO | Start of cycle 558.
+2014-04-24 11:42:38 | INFO | Start of cycle 559.
+2014-04-24 11:42:38 | INFO | Start of cycle 560.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 560; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 560; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 561.
+2014-04-24 11:42:38 | INFO | Start of cycle 562.
+2014-04-24 11:42:38 | INFO | Start of cycle 563.
+2014-04-24 11:42:38 | INFO | Start of cycle 564.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 564; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 414, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 565.
+2014-04-24 11:42:38 | INFO | Start of cycle 566.
+2014-04-24 11:42:38 | INFO | Start of cycle 567.
+2014-04-24 11:42:38 | INFO | Start of cycle 568.
+2014-04-24 11:42:38 | INFO | Start of cycle 569.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 569; counts per type: 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 570.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 570; counts per type: 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Statistics for cycle: 570; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:38 | INFO | Start of cycle 571.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 571; counts per type: 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 572.
+2014-04-24 11:42:38 | INFO | Start of cycle 573.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 573; counts per type: 0, 309, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 574.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 574; counts per type: 0, 194, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 575.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 575; counts per type: 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 576.
+2014-04-24 11:42:38 | INFO | Start of cycle 577.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 577; counts per type: 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 578.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 578; counts per type: 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 579.
+2014-04-24 11:42:38 | INFO | Cells that fired for cycle: 579; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:38 | INFO | Start of cycle 580.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 580; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 580; (dec,inc,non,adj): 0, 2479, 8273, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 581.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 581; counts per type: 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 582.
+2014-04-24 11:42:39 | INFO | Start of cycle 583.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 583; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 584.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 584; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 585.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 585; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 586.
+2014-04-24 11:42:39 | INFO | Start of cycle 587.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 587; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 588.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 588; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 589.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 589; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 590.
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 590; (dec,inc,non,adj): 0, 2915, 6617, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 591.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 591; counts per type: 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 592.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 592; counts per type: 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 593.
+2014-04-24 11:42:39 | INFO | Start of cycle 594.
+2014-04-24 11:42:39 | INFO | Start of cycle 595.
+2014-04-24 11:42:39 | INFO | Start of cycle 596.
+2014-04-24 11:42:39 | INFO | Start of cycle 597.
+2014-04-24 11:42:39 | INFO | Start of cycle 598.
+2014-04-24 11:42:39 | INFO | Start of cycle 599.
+2014-04-24 11:42:39 | INFO | Start of cycle 600.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 600; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 600; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 601.
+2014-04-24 11:42:39 | INFO | Start of cycle 602.
+2014-04-24 11:42:39 | INFO | Start of cycle 603.
+2014-04-24 11:42:39 | INFO | Start of cycle 604.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 604; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 440, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 605.
+2014-04-24 11:42:39 | INFO | Start of cycle 606.
+2014-04-24 11:42:39 | INFO | Start of cycle 607.
+2014-04-24 11:42:39 | INFO | Start of cycle 608.
+2014-04-24 11:42:39 | INFO | Start of cycle 609.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 609; counts per type: 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 610.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 610; counts per type: 0, 71, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 610; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 611.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 611; counts per type: 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 612.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 612; counts per type: 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 613.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 613; counts per type: 0, 200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 614.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 614; counts per type: 0, 171, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 615.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 615; counts per type: 0, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 616.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 616; counts per type: 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 617.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 617; counts per type: 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 618.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 618; counts per type: 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 619.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 619; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 620.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 620; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 620; (dec,inc,non,adj): 0, 2630, 10535, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 621.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 621; counts per type: 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 622.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 622; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 623.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 623; counts per type: 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 624.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 624; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 625.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 625; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 626.
+2014-04-24 11:42:39 | INFO | Start of cycle 627.
+2014-04-24 11:42:39 | INFO | Start of cycle 628.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 628; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 629.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 629; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 630.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 630; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 630; (dec,inc,non,adj): 0, 2637, 10261, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 631.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 631; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 632.
+2014-04-24 11:42:39 | INFO | Start of cycle 633.
+2014-04-24 11:42:39 | INFO | Start of cycle 634.
+2014-04-24 11:42:39 | INFO | Start of cycle 635.
+2014-04-24 11:42:39 | INFO | Start of cycle 636.
+2014-04-24 11:42:39 | INFO | Start of cycle 637.
+2014-04-24 11:42:39 | INFO | Start of cycle 638.
+2014-04-24 11:42:39 | INFO | Start of cycle 639.
+2014-04-24 11:42:39 | INFO | Start of cycle 640.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 640; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 640; (dec,inc,non,adj): 0, 301, 1401, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 641.
+2014-04-24 11:42:39 | INFO | Start of cycle 642.
+2014-04-24 11:42:39 | INFO | Start of cycle 643.
+2014-04-24 11:42:39 | INFO | Start of cycle 644.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 644; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 506, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 645.
+2014-04-24 11:42:39 | INFO | Start of cycle 646.
+2014-04-24 11:42:39 | INFO | Start of cycle 647.
+2014-04-24 11:42:39 | INFO | Start of cycle 648.
+2014-04-24 11:42:39 | INFO | Start of cycle 649.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 649; counts per type: 0, 53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 650.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 650; counts per type: 0, 198, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 650; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 651.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 651; counts per type: 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 652.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 652; counts per type: 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 653.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 653; counts per type: 0, 340, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 654.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 654; counts per type: 0, 353, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 655.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 655; counts per type: 0, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 656.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 656; counts per type: 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 657.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 657; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 658.
+2014-04-24 11:42:39 | INFO | Start of cycle 659.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 659; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 660.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 660; counts per type: 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 660; (dec,inc,non,adj): 0, 3967, 13602, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 661.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 661; counts per type: 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 662.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 662; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 663.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 663; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 664.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 664; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 665.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 665; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 666.
+2014-04-24 11:42:39 | INFO | Start of cycle 667.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 667; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 668.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 668; counts per type: 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 669.
+2014-04-24 11:42:39 | INFO | Start of cycle 670.
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 670; (dec,inc,non,adj): 0, 4157, 8659, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 671.
+2014-04-24 11:42:39 | INFO | Start of cycle 672.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 672; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 673.
+2014-04-24 11:42:39 | INFO | Start of cycle 674.
+2014-04-24 11:42:39 | INFO | Start of cycle 675.
+2014-04-24 11:42:39 | INFO | Start of cycle 676.
+2014-04-24 11:42:39 | INFO | Start of cycle 677.
+2014-04-24 11:42:39 | INFO | Start of cycle 678.
+2014-04-24 11:42:39 | INFO | Start of cycle 679.
+2014-04-24 11:42:39 | INFO | Start of cycle 680.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 680; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 680; (dec,inc,non,adj): 0, 25, 789, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 681.
+2014-04-24 11:42:39 | INFO | Start of cycle 682.
+2014-04-24 11:42:39 | INFO | Start of cycle 683.
+2014-04-24 11:42:39 | INFO | Start of cycle 684.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 684; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 406, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 685.
+2014-04-24 11:42:39 | INFO | Start of cycle 686.
+2014-04-24 11:42:39 | INFO | Start of cycle 687.
+2014-04-24 11:42:39 | INFO | Start of cycle 688.
+2014-04-24 11:42:39 | INFO | Start of cycle 689.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 689; counts per type: 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 690.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 690; counts per type: 0, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 690; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 691.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 691; counts per type: 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 692.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 692; counts per type: 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 693.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 693; counts per type: 0, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 694.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 694; counts per type: 0, 174, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 695.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 695; counts per type: 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 696.
+2014-04-24 11:42:39 | INFO | Start of cycle 697.
+2014-04-24 11:42:39 | INFO | Start of cycle 698.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 698; counts per type: 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 699.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 699; counts per type: 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 700.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 700; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 700; (dec,inc,non,adj): 6, 1162, 12869, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 701.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 701; counts per type: 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 702.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 702; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 703.
+2014-04-24 11:42:39 | INFO | Start of cycle 704.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 704; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 705.
+2014-04-24 11:42:39 | INFO | Start of cycle 706.
+2014-04-24 11:42:39 | INFO | Start of cycle 707.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 707; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 708.
+2014-04-24 11:42:39 | INFO | Start of cycle 709.
+2014-04-24 11:42:39 | INFO | Start of cycle 710.
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 710; (dec,inc,non,adj): 0, 835, 9659, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 711.
+2014-04-24 11:42:39 | INFO | Start of cycle 712.
+2014-04-24 11:42:39 | INFO | Start of cycle 713.
+2014-04-24 11:42:39 | INFO | Start of cycle 714.
+2014-04-24 11:42:39 | INFO | Start of cycle 715.
+2014-04-24 11:42:39 | INFO | Start of cycle 716.
+2014-04-24 11:42:39 | INFO | Start of cycle 717.
+2014-04-24 11:42:39 | INFO | Start of cycle 718.
+2014-04-24 11:42:39 | INFO | Start of cycle 719.
+2014-04-24 11:42:39 | INFO | Start of cycle 720.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 720; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 720; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 721.
+2014-04-24 11:42:39 | INFO | Start of cycle 722.
+2014-04-24 11:42:39 | INFO | Start of cycle 723.
+2014-04-24 11:42:39 | INFO | Start of cycle 724.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 724; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 409, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 725.
+2014-04-24 11:42:39 | INFO | Start of cycle 726.
+2014-04-24 11:42:39 | INFO | Start of cycle 727.
+2014-04-24 11:42:39 | INFO | Start of cycle 728.
+2014-04-24 11:42:39 | INFO | Start of cycle 729.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 729; counts per type: 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 730.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 730; counts per type: 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 730; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 731.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 731; counts per type: 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 732.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 732; counts per type: 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 733.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 733; counts per type: 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 734.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 734; counts per type: 0, 141, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 735.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 735; counts per type: 0, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 736.
+2014-04-24 11:42:39 | INFO | Start of cycle 737.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 737; counts per type: 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 738.
+2014-04-24 11:42:39 | INFO | Start of cycle 739.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 739; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 740.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 740; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 740; (dec,inc,non,adj): 8, 254, 7375, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 741.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 741; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 742.
+2014-04-24 11:42:39 | INFO | Start of cycle 743.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 743; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 744.
+2014-04-24 11:42:39 | INFO | Start of cycle 745.
+2014-04-24 11:42:39 | INFO | Start of cycle 746.
+2014-04-24 11:42:39 | INFO | Start of cycle 747.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 747; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:39 | INFO | Start of cycle 748.
+2014-04-24 11:42:39 | INFO | Start of cycle 749.
+2014-04-24 11:42:39 | INFO | Start of cycle 750.
+2014-04-24 11:42:39 | INFO | Statistics for cycle: 750; (dec,inc,non,adj): 0, 361, 5149, 0.
+2014-04-24 11:42:39 | INFO | Start of cycle 751.
+2014-04-24 11:42:39 | INFO | Start of cycle 752.
+2014-04-24 11:42:39 | INFO | Start of cycle 753.
+2014-04-24 11:42:39 | INFO | Start of cycle 754.
+2014-04-24 11:42:39 | INFO | Start of cycle 755.
+2014-04-24 11:42:39 | INFO | Start of cycle 756.
+2014-04-24 11:42:39 | INFO | Start of cycle 757.
+2014-04-24 11:42:39 | INFO | Start of cycle 758.
+2014-04-24 11:42:39 | INFO | Start of cycle 759.
+2014-04-24 11:42:39 | INFO | Start of cycle 760.
+2014-04-24 11:42:39 | INFO | Cells that fired for cycle: 760; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 760; (dec,inc,non,adj): 0, 4, 1106, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 761.
+2014-04-24 11:42:40 | INFO | Start of cycle 762.
+2014-04-24 11:42:40 | INFO | Start of cycle 763.
+2014-04-24 11:42:40 | INFO | Start of cycle 764.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 764; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 350, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 765.
+2014-04-24 11:42:40 | INFO | Start of cycle 766.
+2014-04-24 11:42:40 | INFO | Start of cycle 767.
+2014-04-24 11:42:40 | INFO | Start of cycle 768.
+2014-04-24 11:42:40 | INFO | Start of cycle 769.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 769; counts per type: 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 770.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 770; counts per type: 0, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 770; (dec,inc,non,adj): 0, 1, 1109, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 771.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 771; counts per type: 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 772.
+2014-04-24 11:42:40 | INFO | Start of cycle 773.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 773; counts per type: 0, 145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 774.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 774; counts per type: 0, 168, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 775.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 775; counts per type: 0, 156, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 776.
+2014-04-24 11:42:40 | INFO | Start of cycle 777.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 777; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 778.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 778; counts per type: 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 779.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 779; counts per type: 6, 62, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 780.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 780; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 780; (dec,inc,non,adj): 0, 1207, 8945, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 781.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 781; counts per type: 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 782.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 782; counts per type: 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 783.
+2014-04-24 11:42:40 | INFO | Start of cycle 784.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 784; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 785.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 785; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 786.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 786; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 787.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 787; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 788.
+2014-04-24 11:42:40 | INFO | Start of cycle 789.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 789; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 790.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 790; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 790; (dec,inc,non,adj): 0, 1195, 4338, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 791.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 791; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 792.
+2014-04-24 11:42:40 | INFO | Start of cycle 793.
+2014-04-24 11:42:40 | INFO | Start of cycle 794.
+2014-04-24 11:42:40 | INFO | Start of cycle 795.
+2014-04-24 11:42:40 | INFO | Start of cycle 796.
+2014-04-24 11:42:40 | INFO | Start of cycle 797.
+2014-04-24 11:42:40 | INFO | Start of cycle 798.
+2014-04-24 11:42:40 | INFO | Start of cycle 799.
+2014-04-24 11:42:40 | INFO | Start of cycle 800.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 800; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 800; (dec,inc,non,adj): 0, 188, 1524, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 801.
+2014-04-24 11:42:40 | INFO | Start of cycle 802.
+2014-04-24 11:42:40 | INFO | Start of cycle 803.
+2014-04-24 11:42:40 | INFO | Start of cycle 804.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 804; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 421, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 805.
+2014-04-24 11:42:40 | INFO | Start of cycle 806.
+2014-04-24 11:42:40 | INFO | Start of cycle 807.
+2014-04-24 11:42:40 | INFO | Start of cycle 808.
+2014-04-24 11:42:40 | INFO | Start of cycle 809.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 809; counts per type: 0, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 810.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 810; counts per type: 0, 107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 810; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 811.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 811; counts per type: 0, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 812.
+2014-04-24 11:42:40 | INFO | Start of cycle 813.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 813; counts per type: 0, 195, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 814.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 814; counts per type: 0, 366, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 815.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 815; counts per type: 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 816.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 816; counts per type: 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 817.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 817; counts per type: 4, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 818.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 818; counts per type: 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 819.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 819; counts per type: 9, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 820.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 820; counts per type: 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 820; (dec,inc,non,adj): 0, 2392, 7157, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 821.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 821; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 822.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 822; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 823.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 823; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 824.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 824; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 825.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 825; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 826.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 826; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 827.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 827; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 828.
+2014-04-24 11:42:40 | INFO | Start of cycle 829.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 829; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 830.
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 830; (dec,inc,non,adj): 0, 3071, 5140, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 831.
+2014-04-24 11:42:40 | INFO | Start of cycle 832.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 832; counts per type: 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 833.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 833; counts per type: 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 834.
+2014-04-24 11:42:40 | INFO | Start of cycle 835.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 835; counts per type: 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 836.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 836; counts per type: 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 837.
+2014-04-24 11:42:40 | INFO | Start of cycle 838.
+2014-04-24 11:42:40 | INFO | Start of cycle 839.
+2014-04-24 11:42:40 | INFO | Start of cycle 840.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 840; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 840; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 841.
+2014-04-24 11:42:40 | INFO | Start of cycle 842.
+2014-04-24 11:42:40 | INFO | Start of cycle 843.
+2014-04-24 11:42:40 | INFO | Start of cycle 844.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 844; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 387, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 845.
+2014-04-24 11:42:40 | INFO | Start of cycle 846.
+2014-04-24 11:42:40 | INFO | Start of cycle 847.
+2014-04-24 11:42:40 | INFO | Start of cycle 848.
+2014-04-24 11:42:40 | INFO | Start of cycle 849.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 849; counts per type: 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 850.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 850; counts per type: 0, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 850; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 851.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 851; counts per type: 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 852.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 852; counts per type: 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 853.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 853; counts per type: 0, 189, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 854.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 854; counts per type: 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 855.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 855; counts per type: 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 856.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 856; counts per type: 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 857.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 857; counts per type: 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 858.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 858; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 859.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 859; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 860.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 860; counts per type: 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 860; (dec,inc,non,adj): 0, 2179, 8773, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 861.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 861; counts per type: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 862.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 862; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 863.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 863; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 864.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 864; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 865.
+2014-04-24 11:42:40 | INFO | Start of cycle 866.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 866; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 867.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 867; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 868.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 868; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 869.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 869; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 870.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 870; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 870; (dec,inc,non,adj): 0, 1480, 8497, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 871.
+2014-04-24 11:42:40 | INFO | Start of cycle 872.
+2014-04-24 11:42:40 | INFO | Start of cycle 873.
+2014-04-24 11:42:40 | INFO | Start of cycle 874.
+2014-04-24 11:42:40 | INFO | Start of cycle 875.
+2014-04-24 11:42:40 | INFO | Start of cycle 876.
+2014-04-24 11:42:40 | INFO | Start of cycle 877.
+2014-04-24 11:42:40 | INFO | Start of cycle 878.
+2014-04-24 11:42:40 | INFO | Start of cycle 879.
+2014-04-24 11:42:40 | INFO | Start of cycle 880.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 880; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 880; (dec,inc,non,adj): 0, 72, 462, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 881.
+2014-04-24 11:42:40 | INFO | Start of cycle 882.
+2014-04-24 11:42:40 | INFO | Start of cycle 883.
+2014-04-24 11:42:40 | INFO | Start of cycle 884.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 884; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 350, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 885.
+2014-04-24 11:42:40 | INFO | Start of cycle 886.
+2014-04-24 11:42:40 | INFO | Start of cycle 887.
+2014-04-24 11:42:40 | INFO | Start of cycle 888.
+2014-04-24 11:42:40 | INFO | Start of cycle 889.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 889; counts per type: 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 890.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 890; counts per type: 0, 128, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 890; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 891.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 891; counts per type: 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 892.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 892; counts per type: 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 893.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 893; counts per type: 0, 275, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 894.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 894; counts per type: 0, 121, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 895.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 895; counts per type: 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 896.
+2014-04-24 11:42:40 | INFO | Start of cycle 897.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 897; counts per type: 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 898.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 898; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 899.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 899; counts per type: 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 900.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 900; counts per type: 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 900; (dec,inc,non,adj): 0, 621, 10010, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 901.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 901; counts per type: 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 902.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 902; counts per type: 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 903.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 903; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 904.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 904; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 905.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 905; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 906.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 906; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 907.
+2014-04-24 11:42:40 | INFO | Start of cycle 908.
+2014-04-24 11:42:40 | INFO | Start of cycle 909.
+2014-04-24 11:42:40 | INFO | Start of cycle 910.
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 910; (dec,inc,non,adj): 0, 415, 7878, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 911.
+2014-04-24 11:42:40 | INFO | Start of cycle 912.
+2014-04-24 11:42:40 | INFO | Start of cycle 913.
+2014-04-24 11:42:40 | INFO | Start of cycle 914.
+2014-04-24 11:42:40 | INFO | Start of cycle 915.
+2014-04-24 11:42:40 | INFO | Start of cycle 916.
+2014-04-24 11:42:40 | INFO | Start of cycle 917.
+2014-04-24 11:42:40 | INFO | Start of cycle 918.
+2014-04-24 11:42:40 | INFO | Start of cycle 919.
+2014-04-24 11:42:40 | INFO | Start of cycle 920.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 920; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 920; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 921.
+2014-04-24 11:42:40 | INFO | Start of cycle 922.
+2014-04-24 11:42:40 | INFO | Start of cycle 923.
+2014-04-24 11:42:40 | INFO | Start of cycle 924.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 924; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 273, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 925.
+2014-04-24 11:42:40 | INFO | Start of cycle 926.
+2014-04-24 11:42:40 | INFO | Start of cycle 927.
+2014-04-24 11:42:40 | INFO | Start of cycle 928.
+2014-04-24 11:42:40 | INFO | Start of cycle 929.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 929; counts per type: 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 930.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 930; counts per type: 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Statistics for cycle: 930; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:40 | INFO | Start of cycle 931.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 931; counts per type: 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 932.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 932; counts per type: 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 933.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 933; counts per type: 0, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 934.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 934; counts per type: 0, 153, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 935.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 935; counts per type: 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 936.
+2014-04-24 11:42:40 | INFO | Start of cycle 937.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 937; counts per type: 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:40 | INFO | Start of cycle 938.
+2014-04-24 11:42:40 | INFO | Cells that fired for cycle: 938; counts per type: 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 939.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 939; counts per type: 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 940.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 940; counts per type: 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Statistics for cycle: 940; (dec,inc,non,adj): 0, 893, 8823, 0.
+2014-04-24 11:42:41 | INFO | Start of cycle 941.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 941; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 942.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 942; counts per type: 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 943.
+2014-04-24 11:42:41 | INFO | Start of cycle 944.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 944; counts per type: 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 945.
+2014-04-24 11:42:41 | INFO | Start of cycle 946.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 946; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 947.
+2014-04-24 11:42:41 | INFO | Start of cycle 948.
+2014-04-24 11:42:41 | INFO | Start of cycle 949.
+2014-04-24 11:42:41 | INFO | Start of cycle 950.
+2014-04-24 11:42:41 | INFO | Statistics for cycle: 950; (dec,inc,non,adj): 0, 505, 4931, 0.
+2014-04-24 11:42:41 | INFO | Start of cycle 951.
+2014-04-24 11:42:41 | INFO | Start of cycle 952.
+2014-04-24 11:42:41 | INFO | Start of cycle 953.
+2014-04-24 11:42:41 | INFO | Start of cycle 954.
+2014-04-24 11:42:41 | INFO | Start of cycle 955.
+2014-04-24 11:42:41 | INFO | Start of cycle 956.
+2014-04-24 11:42:41 | INFO | Start of cycle 957.
+2014-04-24 11:42:41 | INFO | Start of cycle 958.
+2014-04-24 11:42:41 | INFO | Start of cycle 959.
+2014-04-24 11:42:41 | INFO | Start of cycle 960.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 960; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0
+2014-04-24 11:42:41 | INFO | Statistics for cycle: 960; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:41 | INFO | Start of cycle 961.
+2014-04-24 11:42:41 | INFO | Start of cycle 962.
+2014-04-24 11:42:41 | INFO | Start of cycle 963.
+2014-04-24 11:42:41 | INFO | Start of cycle 964.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 964; counts per type: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 394, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 965.
+2014-04-24 11:42:41 | INFO | Start of cycle 966.
+2014-04-24 11:42:41 | INFO | Start of cycle 967.
+2014-04-24 11:42:41 | INFO | Start of cycle 968.
+2014-04-24 11:42:41 | INFO | Start of cycle 969.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 969; counts per type: 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 970.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 970; counts per type: 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Statistics for cycle: 970; (dec,inc,non,adj): 0, 0, 0, 0.
+2014-04-24 11:42:41 | INFO | Start of cycle 971.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 971; counts per type: 0, 55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 972.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 972; counts per type: 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 973.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 973; counts per type: 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 974.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 974; counts per type: 0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 975.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 975; counts per type: 0, 134, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 976.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 976; counts per type: 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 977.
+2014-04-24 11:42:41 | INFO | Start of cycle 978.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 978; counts per type: 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 979.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 979; counts per type: 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 980.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 980; counts per type: 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Statistics for cycle: 980; (dec,inc,non,adj): 0, 630, 7225, 0.
+2014-04-24 11:42:41 | INFO | Start of cycle 981.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 981; counts per type: 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 982.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 982; counts per type: 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 983.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 983; counts per type: 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 984.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 984; counts per type: 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 985.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 985; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 986.
+2014-04-24 11:42:41 | INFO | Cells that fired for cycle: 986; counts per type: 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2014-04-24 11:42:41 | INFO | Start of cycle 987.
+2014-04-24 11:42:41 | INFO | Start of cycle 988.
+2014-04-24 11:42:41 | INFO | Start of cycle 989.
+2014-04-24 11:42:41 | INFO | Start of cycle 990.
+2014-04-24 11:42:41 | INFO | Statistics for cycle: 990; (dec,inc,non,adj): 0, 566, 4557, 0.
+2014-04-24 11:42:41 | INFO | Start of cycle 991.
+2014-04-24 11:42:41 | INFO | Start of cycle 992.
+2014-04-24 11:42:41 | INFO | Start of cycle 993.
+2014-04-24 11:42:41 | INFO | Start of cycle 994.
+2014-04-24 11:42:41 | INFO | Start of cycle 995.
+2014-04-24 11:42:41 | INFO | Start of cycle 996.
+2014-04-24 11:42:41 | INFO | Start of cycle 997.
+2014-04-24 11:42:41 | INFO | Start of cycle 998.
+2014-04-24 11:42:41 | INFO | Start of cycle 999.
+2014-04-24 11:42:41 | INFO | Total number of adjustments (rebalances) = 0
+2014-04-24 11:42:41 | INFO | 14. Transition from 'RunSim::RunSimulation - Running cycles' to 'RunSim::Completed' elapsed time = 5.870000 seconds.
+2014-04-24 11:42:41 | INFO | 	'RunSim::1.Cleanup and reporting - start of cycle' elapsed time = 0.007000 seconds, %0.119250.
+2014-04-24 11:42:41 | INFO | 	'RunSim::2a.NetworkSendAndReceive Prep' elapsed time = 0.081000 seconds, %1.379898.
+2014-04-24 11:42:41 | INFO | 	'RunSim::2b.NetworkSendAndReceive Wait' elapsed time = 0.001000 seconds, %0.017036.
+2014-04-24 11:42:41 | INFO | 	'RunSim::2c.NetworkSendAndReceive Send' elapsed time = 0.068000 seconds, %1.158433.
+2014-04-24 11:42:41 | INFO | 	'RunSim::3.Process incoming data' elapsed time = 0.025000 seconds, %0.425894.
+2014-04-24 11:42:41 | INFO | 	'RunSim::4.Process events' elapsed time = 0.019000 seconds, %0.323680.
+2014-04-24 11:42:41 | INFO | 	'RunSim::5.Evaluate firing - Izhi' elapsed time = 0.250000 seconds, %4.258944.
+2014-04-24 11:42:41 | INFO | 	'RunSim::6.Evaluate firing - Force fire' elapsed time = 0.075000 seconds, %1.277683.
+2014-04-24 11:42:41 | INFO | 	'RunSim::7.Learning' elapsed time = 1.007000 seconds, %17.155025.
+2014-04-24 11:42:41 | INFO | 	'RunSim::8.Regulation' elapsed time = 0.001000 seconds, %0.017036.
+2014-04-24 11:42:41 | INFO | 	'RunSim::9.Cleanup and reporting - end of cycle' elapsed time = 2.502000 seconds, %42.623508.
+2014-04-24 11:42:41 | INFO | 	'RunSim::RunSimulation - Running cycles other' elapsed time = 1.834000 seconds, %31.243612.
+2014-04-24 11:42:44 | INFO | Total Process Time: 22.902 seconds.
+2014-04-24 11:42:44 | INFO | 15. Transition from 'RunSim::Completed' to 'End' elapsed time = 2.959000 seconds.
+2014-04-24 11:42:44 | INFO | 
+2014-04-24 11:42:44 | INFO | Timing summary
+2014-04-24 11:42:44 | INFO | --------------
+2014-04-24 11:42:44 | INFO | 	01. Transition from 'Program Begin' to 'Init::SetNodeSpace' elapsed time = 12.139000 seconds.
+2014-04-24 11:42:44 | INFO | 	02. Transition from 'Init::SetNodeSpace' to 'Init::SetZoneSpace' elapsed time = 0.011000 seconds.
+2014-04-24 11:42:44 | INFO | 	03. Transition from 'Init::SetZoneSpace' to 'Init::GenerateSomas' elapsed time = 0.011000 seconds.
+2014-04-24 11:42:44 | INFO | 	04. Transition from 'Init::GenerateSomas' to 'Init::FindSynapses' elapsed time = 0.089000 seconds.
+2014-04-24 11:42:44 | INFO | 	05. Transition from 'Init::FindSynapses' to 'Init::PrintAllCoord' elapsed time = 0.457000 seconds.
+2014-04-24 11:42:44 | INFO | 		'Init::2.FindSynapsesByTypePair SkipToFirstOverlap' elapsed time = 0.000000 seconds, %0.000000.
+2014-04-24 11:42:44 | INFO | 		'Init::1.FindSynapsesByTypePair CalculateDifferentiationByType' elapsed time = 0.089000 seconds, %19.474836.
+2014-04-24 11:42:44 | INFO | 		'Init::FindSynapses other' elapsed time = 0.142000 seconds, %31.072210.
+2014-04-24 11:42:44 | INFO | 		'Init::3.FindSynapsesByTypePair Staggered Walk' elapsed time = 0.226000 seconds, %49.452953.
+2014-04-24 11:42:44 | INFO | 	06. Transition from 'Init::PrintAllCoord' to 'Init::PrintAllCoord Somas' elapsed time = 0.034000 seconds.
+2014-04-24 11:42:44 | INFO | 	07. Transition from 'Init::PrintAllCoord Somas' to 'Init::PrintAllCoord Synapses' elapsed time = 0.263000 seconds.
+2014-04-24 11:42:44 | INFO | 	08. Transition from 'Init::PrintAllCoord Synapses' to 'Init::PrintAllCoord in memory' elapsed time = 0.613000 seconds.
+2014-04-24 11:42:44 | INFO | 	09. Transition from 'Init::PrintAllCoord in memory' to 'Init::PrintAllCoord to file' elapsed time = 0.011000 seconds.
+2014-04-24 11:42:44 | INFO | 	10. Transition from 'Init::PrintAllCoord to file' to 'Init::Completed' elapsed time = 0.056000 seconds.
+2014-04-24 11:42:44 | INFO | 	11. Transition from 'Init::Completed' to 'RunSim::PrepareStructures' elapsed time = 0.070000 seconds.
+2014-04-24 11:42:44 | INFO | 	12. Transition from 'RunSim::PrepareStructures' to 'RunSim::RunSimulation - Waiting for nodes' elapsed time = 0.315000 seconds.
+2014-04-24 11:42:44 | INFO | 	13. Transition from 'RunSim::RunSimulation - Waiting for nodes' to 'RunSim::RunSimulation - Running cycles' elapsed time = 0.014000 seconds.
+2014-04-24 11:42:44 | INFO | 	14. Transition from 'RunSim::RunSimulation - Running cycles' to 'RunSim::Completed' elapsed time = 5.870000 seconds.
+2014-04-24 11:42:44 | INFO | 		'RunSim::8.Regulation' elapsed time = 0.001000 seconds, %0.017036.
+2014-04-24 11:42:44 | INFO | 		'RunSim::1.Cleanup and reporting - start of cycle' elapsed time = 0.007000 seconds, %0.119250.
+2014-04-24 11:42:44 | INFO | 		'RunSim::4.Process events' elapsed time = 0.019000 seconds, %0.323680.
+2014-04-24 11:42:44 | INFO | 		'RunSim::3.Process incoming data' elapsed time = 0.025000 seconds, %0.425894.
+2014-04-24 11:42:44 | INFO | 		'RunSim::2c.NetworkSendAndReceive Send' elapsed time = 0.068000 seconds, %1.158433.
+2014-04-24 11:42:44 | INFO | 		'RunSim::6.Evaluate firing - Force fire' elapsed time = 0.075000 seconds, %1.277683.
+2014-04-24 11:42:44 | INFO | 		'RunSim::2a.NetworkSendAndReceive Prep' elapsed time = 0.081000 seconds, %1.379898.
+2014-04-24 11:42:44 | INFO | 		'RunSim::5.Evaluate firing - Izhi' elapsed time = 0.250000 seconds, %4.258944.
+2014-04-24 11:42:44 | INFO | 		'RunSim::7.Learning' elapsed time = 1.007000 seconds, %17.155025.
+2014-04-24 11:42:44 | INFO | 		'RunSim::RunSimulation - Running cycles other' elapsed time = 1.834000 seconds, %31.243612.
+2014-04-24 11:42:44 | INFO | 		'RunSim::9.Cleanup and reporting - end of cycle' elapsed time = 2.502000 seconds, %42.623508.
+2014-04-24 11:42:44 | INFO | 	15. Transition from 'RunSim::Completed' to 'End' elapsed time = 2.959000 seconds.

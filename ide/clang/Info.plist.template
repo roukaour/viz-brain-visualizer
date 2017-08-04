@@ -1,0 +1,52 @@
+#include "version.h"
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleName</key>
+        <string>Brain Visualizer</string>
+        <key>CFBundleDisplayName</key>
+        <string>Brain Visualizer</string>
+        <key>CFBundleIdentifier</key>
+        <string>edu.sbu.cs.viz</string>
+        <key>CFBundleVersion</key>
+        <string>VIZ_VERSION_DOTS</string>
+        <key>CFBundleShortVersionString</key>
+        <string>VIZ_VERSION_DOTS</string>
+        <key>CFBundleExecutable</key>
+        <string>launchviz</string>
+        <key>CFBundleIconFile</key>
+        <string>viz.icns</string>
+        <key>CFBundleDocumentTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleTypeName</key>
+                <string>Model Files</string>
+                <key>CFBundleTypeExtensions</key>
+                <array>
+                    <string>txt</string>
+                    <string>vbm</string>
+                    <string>gz</string>
+                </array>
+                <key>CFBundleTypeRole</key>
+                <string>Viewer</string>
+                <key>LSHandlerRank</key>
+                <string>Owner</string>
+                <key>LSTypeIsPackage</key>
+                <false/>
+            </dict>
+        </array>
+        <key>CFAppleHelpAnchor</key>
+        <string>help</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleSignature</key>
+        <string>none</string>
+        <key>CFBundleDevelopmentRegion</key>
+        <string>en-US</string>
+        <key>NSHighResolutionCapable</key>
+        <false/>
+    </dict>
+</plist>

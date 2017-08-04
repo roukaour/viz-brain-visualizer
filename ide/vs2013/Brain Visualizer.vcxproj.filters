@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{f6809963-2b65-4b6c-a2e1-df7db6119965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model GUI">
+      <UniqueIdentifier>{2c3451e0-4b94-416c-b46d-82b2f2cb64ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model Data">
+      <UniqueIdentifier>{e8b8e052-be74-4d74-9dfa-9fad3676c7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sim Data">
+      <UniqueIdentifier>{506cb829-187d-4b92-92e6-e85066270bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{0e20794e-52ae-417e-a9d8-d3848cba6b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Toolbar Icons %28Small%29">
+      <UniqueIdentifier>{cc0c5dc8-b9e0-410c-85dd-2e7aa6678956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Toolbar Icons %28Large%29">
+      <UniqueIdentifier>{1a12bf1b-ea2f-4e7e-a108-f683427e8970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Status Bar Icons">
+      <UniqueIdentifier>{f84986a1-1cdd-4a90-b395-f0785ad6e5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sim Bar Icons">
+      <UniqueIdentifier>{775b51cb-c7b7-4fb6-b491-301c9e0c87be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Dialog Icons">
+      <UniqueIdentifier>{8b8006ad-4900-431e-baab-1998bb2190eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Other Icons">
+      <UniqueIdentifier>{084bea9e-f286-45a2-bcc6-7d1fe5f07402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Config Files">
+      <UniqueIdentifier>{a1fc6347-47e0-4964-a19d-24860697357e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{6fc2ccd0-abd2-4ef1-a00e-7f0b0a775e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model GUI">
+      <UniqueIdentifier>{0c7bbcea-37ef-486f-810c-76bc1db1daf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model Data">
+      <UniqueIdentifier>{0ca6c1dd-e73a-4b8b-9f2e-b8a11a8c6e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sim Data">
+      <UniqueIdentifier>{003e8500-45aa-404d-8c62-e271c1659f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{a24a3bf1-6c34-414d-80d4-f81bf5fb4ae6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\algebra.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\binary-parser.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\bounds.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\brain-model.cpp">
+      <Filter>Source Files\Model Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clip-volume.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\color.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\color-maps.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\draw-options.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\firing-spikes.cpp">
+      <Filter>Source Files\Sim Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\fps.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\from-file.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gap-junction.cpp">
+      <Filter>Source Files\Model Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\help-window.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\image.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\input-parser.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modal-dialog.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\model-area.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\model-state.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\neuritic-field.cpp">
+      <Filter>Source Files\Model Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\option-dialogs.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\os-themes.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\overview-area.cpp">
+      <Filter>Source Files\Model GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\progress-dialog.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sim-data.cpp">
+      <Filter>Source Files\Sim Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\soma.cpp">
+      <Filter>Source Files\Model Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\soma-type.cpp">
+      <Filter>Source Files\Model Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\summary-dialog.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\synapse.cpp">
+      <Filter>Source Files\Model Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\viz-window.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\voltage-graph.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\voltage-graph-window.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\voltages.cpp">
+      <Filter>Source Files\Sim Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\waiting-dialog.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\weights.cpp">
+      <Filter>Source Files\Sim Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\widgets.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\algebra.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\binary-parser.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\bounds.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\brain-model.h">
+      <Filter>Header Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clip-volume.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\color.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\color-maps.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\coords.h">
+      <Filter>Header Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\draw-options.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\firing-spikes.h">
+      <Filter>Header Files\Sim Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\fps.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\from-file.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gap-junction.h">
+      <Filter>Header Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\help-window.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\image.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\input-parser.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\modal-dialog.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\model-area.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\model-state.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\neuritic-field.h">
+      <Filter>Header Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\option-dialogs.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\os-themes.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\overview-area.h">
+      <Filter>Header Files\Model GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\progress-dialog.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sim-data.h">
+      <Filter>Header Files\Sim Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\soma.h">
+      <Filter>Header Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\soma-type.h">
+      <Filter>Header Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\summary-dialog.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\synapse.h">
+      <Filter>Header Files\Model Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\viz-icons.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\viz-window.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\voltage-graph.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\voltage-graph-window.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\voltages.h">
+      <Filter>Header Files\Sim Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\waiting-dialog.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\weights.h">
+      <Filter>Header Files\Sim Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\widgets.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\config\help.html">
+      <Filter>Resource Files\Config Files</Filter>
+    </None>
+    <None Include="..\..\config\viz.cfg">
+      <Filter>Resource Files\Config Files</Filter>
+    </None>
+    <None Include="..\..\res\allow-letters-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\allow-letters-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\axon-conns-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\axon-conns-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\clip-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\clip-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\conn-fields-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\conn-fields-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\conn-selected-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\conn-selected-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\copy-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\copy-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\copy-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\copy-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\den-conns-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\den-conns-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\deselect.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\deselect-disabled.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\dropdown-7.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\dropdown-11.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\error.xpm">
+      <Filter>Resource Files\Dialog Icons</Filter>
+    </None>
+    <None Include="..\..\res\export-image-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\export-image-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\export-image-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\export-image-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\gap-junctions-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\gap-junctions-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-firing-spikes-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-firing-spikes-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-firing-spikes-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-firing-spikes-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-prunings-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-prunings-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-prunings-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-prunings-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-voltages-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-voltages-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-voltages-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-voltages-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-weights-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-weights-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\load-weights-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\load-weights-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\mark-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\mark-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\neuritic-fields-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\neuritic-fields-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\next.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\next-change.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\next-disabled.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\next-selected.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\next-selected-disabled.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\open-and-load-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\open-and-load-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\open-model-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\open-model-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\orthographic-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\orthographic-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\pan-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\pan-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\paste-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\paste-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\paste-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\paste-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\pause.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\pivot.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\pivot-disabled.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\play.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\previous.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\previous-change.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\previous-disabled.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\previous-selected.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\previous-selected-disabled.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\redo-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\redo-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\redo-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\redo-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\repeat-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\repeat-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\repeat-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\repeat-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\report.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\report-disabled.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\reset-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\reset-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\reset-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\reset-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\reset-settings-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\reset-settings-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-2d-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-2d-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-3d-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-3d-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-x-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-x-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-y-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-y-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-z-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\rotate-z-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\select-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\select-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\show-clipped-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\show-clipped-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\show-marked-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\show-marked-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\show-selected-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\show-selected-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\snap-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\snap-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\snap-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\snap-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\star.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\star-disabled.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\step.xpm">
+      <Filter>Resource Files\Sim Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\success.xpm">
+      <Filter>Resource Files\Dialog Icons</Filter>
+    </None>
+    <None Include="..\..\res\summary.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\summary-disabled.xpm">
+      <Filter>Resource Files\Status Bar Icons</Filter>
+    </None>
+    <None Include="..\..\res\syn-dots-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\syn-dots-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\to-axon-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\to-axon-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\to-den-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\to-den-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\to-synapse-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\to-synapse-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\to-via-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\to-via-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\undo-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\undo-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\undo-disabled-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\undo-disabled-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\viz.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\res\viz-48.xpm">
+      <Filter>Resource Files\Dialog Icons</Filter>
+    </None>
+    <None Include="..\..\res\warning.xpm">
+      <Filter>Resource Files\Dialog Icons</Filter>
+    </None>
+    <None Include="..\..\res\zoom-16.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Small%29</Filter>
+    </None>
+    <None Include="..\..\res\zoom-24.xpm">
+      <Filter>Resource Files\Toolbar Icons %28Large%29</Filter>
+    </None>
+    <None Include="..\..\res\zoom-in.xpm">
+      <Filter>Resource Files\Other Icons</Filter>
+    </None>
+    <None Include="..\..\res\zoom-out.xpm">
+      <Filter>Resource Files\Other Icons</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Brain Visualizer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

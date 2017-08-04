@@ -1,0 +1,8 @@
+# Next line contains the total soma count (includes inactive):
+152769
+# Next line contains the total synapse count:
+5792778
+# Next line contains the number of cycles:
+100
+#Cycle number <space> Init Synapse Id <space> Axonal soma ID <space> Dendritic soma ID <space> Runsim Synapse Id <space> Weight before <space> Weight after
+#Cycle InitSynapseId AxonalSoma DendriticSoma RunSimSynapseId WeightBefore WeightAfter
